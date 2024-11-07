@@ -1,0 +1,399 @@
+[
+  {
+    "name": "Spaghetti Bolognese",
+    "ingredients": [
+      "200g spaghetti",
+      "100g ground beef",
+      "1 onion, chopped",
+      "2 garlic cloves, minced",
+      "400g canned tomatoes",
+      "50ml red wine",
+      "Salt and pepper to taste"
+    ],
+    "preparation": "Heat a pan and cook the beef until browned. Add the onion and garlic, then stir in tomatoes and wine. Simmer for 20 minutes.",
+    "preparation_time": 10,
+    "cooking_time": 30,
+    "total_time": 40,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Chicken Curry",
+    "ingredients": [
+      "200g chicken breast, cubed",
+      "1 onion, chopped",
+      "1 garlic clove, minced",
+      "100ml coconut milk",
+      "2 tbsp curry powder",
+      "Salt to taste"
+    ],
+    "preparation": "Cook the chicken in a pan until golden. Add onion, garlic, and curry powder. Stir in coconut milk and simmer for 15 minutes.",
+    "preparation_time": 10,
+    "cooking_time": 20,
+    "total_time": 30,
+    "servings": 2,
+    "difficulty": "medium"
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "ingredients": [
+      "100g broccoli",
+      "1 red bell pepper, sliced",
+      "1 carrot, sliced",
+      "50g snow peas",
+      "2 tbsp soy sauce",
+      "1 tbsp olive oil"
+    ],
+    "preparation": "Heat oil in a pan, add vegetables and stir-fry until tender. Pour in soy sauce and cook for another minute.",
+    "preparation_time": 5,
+    "cooking_time": 10,
+    "total_time": 15,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Beef Stroganoff",
+    "ingredients": [
+      "200g beef strips",
+      "1 onion, chopped",
+      "200ml sour cream",
+      "100g mushrooms, sliced",
+      "Salt and pepper to taste",
+      "1 tbsp olive oil"
+    ],
+    "preparation": "Heat oil in a pan and cook beef until brown. Add onion and mushrooms, then stir in sour cream. Simmer for 10 minutes.",
+    "preparation_time": 10,
+    "cooking_time": 20,
+    "total_time": 30,
+    "servings": 2,
+    "difficulty": "medium"
+  },
+  {
+    "name": "Pancakes",
+    "ingredients": [
+      "1 cup flour",
+      "1 cup milk",
+      "1 egg",
+      "1 tbsp sugar",
+      "1 tbsp butter, melted",
+      "Pinch of salt"
+    ],
+    "preparation": "Mix all ingredients in a bowl until smooth. Pour batter into a hot pan and cook until bubbles form, then flip.",
+    "preparation_time": 5,
+    "cooking_time": 10,
+    "total_time": 15,
+    "servings": 4,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Margherita Pizza",
+    "ingredients": [
+      "1 pizza base",
+      "100g mozzarella cheese",
+      "50g tomato sauce",
+      "Fresh basil leaves",
+      "Olive oil"
+    ],
+    "preparation": "Spread tomato sauce on the base, add mozzarella, and bake at 200°C for 10-15 minutes. Garnish with basil and drizzle with olive oil.",
+    "preparation_time": 5,
+    "cooking_time": 15,
+    "total_time": 20,
+    "servings": 2,
+    "difficulty": "medium"
+  },
+  {
+    "name": "Greek Salad",
+    "ingredients": [
+      "1 cucumber, sliced",
+      "1 tomato, diced",
+      "50g feta cheese, cubed",
+      "10 olives",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparation": "Mix cucumber, tomato, feta, and olives in a bowl. Drizzle with olive oil and season with salt and pepper.",
+    "preparation_time": 5,
+    "cooking_time": 0,
+    "total_time": 5,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Omelette",
+    "ingredients": [
+      "3 eggs",
+      "50g cheese, grated",
+      "Salt and pepper to taste",
+      "1 tbsp butter"
+    ],
+    "preparation": "Beat eggs with salt and pepper. Pour into a pan with melted butter, add cheese, and fold when cooked.",
+    "preparation_time": 5,
+    "cooking_time": 5,
+    "total_time": 10,
+    "servings": 1,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Lemon Chicken",
+    "ingredients": [
+      "200g chicken breast",
+      "1 lemon, juiced",
+      "1 garlic clove, minced",
+      "Salt and pepper to taste",
+      "1 tbsp olive oil"
+    ],
+    "preparation": "Marinate chicken in lemon and garlic. Cook in a pan with olive oil until golden and cooked through.",
+    "preparation_time": 10,
+    "cooking_time": 15,
+    "total_time": 25,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Mushroom Risotto",
+    "ingredients": [
+      "200g Arborio rice",
+      "100g mushrooms, sliced",
+      "1 onion, chopped",
+      "500ml chicken stock",
+      "Salt to taste",
+      "1 tbsp butter"
+    ],
+    "preparation": "Cook onion and mushrooms in butter, add rice, and gradually stir in stock until absorbed.",
+    "preparation_time": 10,
+    "cooking_time": 30,
+    "total_time": 40,
+    "servings": 2,
+    "difficulty": "medium"
+  },
+  {
+    "name": "Garlic Shrimp Pasta",
+    "ingredients": [
+      "200g spaghetti",
+      "100g shrimp, peeled",
+      "2 garlic cloves, minced",
+      "2 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "preparation": "Cook pasta as directed. In a pan, cook shrimp with garlic in olive oil, then combine with pasta.",
+    "preparation_time": 10,
+    "cooking_time": 15,
+    "total_time": 25,
+    "servings": 2,
+    "difficulty": "medium"
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "ingredients": [
+      "4 bell peppers",
+      "200g ground beef",
+      "1 onion, chopped",
+      "1 cup rice, cooked",
+      "Salt and pepper to taste"
+    ],
+    "preparation": "Stuff bell peppers with a mix of beef, onion, and rice. Bake at 180°C for 30 minutes.",
+    "preparation_time": 15,
+    "cooking_time": 30,
+    "total_time": 45,
+    "servings": 4,
+    "difficulty": "medium"
+  },
+  {
+    "name": "Tuna Salad",
+    "ingredients": [
+      "1 can tuna",
+      "1 cucumber, diced",
+      "1 tomato, diced",
+      "2 tbsp mayonnaise",
+      "Salt and pepper to taste"
+    ],
+    "preparation": "Mix tuna, cucumber, and tomato in a bowl. Stir in mayonnaise and season with salt and pepper.",
+    "preparation_time": 5,
+    "cooking_time": 0,
+    "total_time": 5,
+    "servings": 2,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Apple Pie",
+    "ingredients": [
+      "1 pie crust",
+      "3 apples, sliced",
+      "2 tbsp sugar",
+      "1 tsp cinnamon",
+      "1 tbsp butter"
+    ],
+    "preparation": "Arrange apples on the crust, sprinkle with sugar and cinnamon, dot with butter, and bake at 180°C for 30 minutes.",
+    "preparation_time": 15,
+    "cooking_time": 30,
+    "total_time": 45,
+    "servings": 4,
+    "difficulty": "medium"
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      "1 cup flour",
+      "1/2 cup sugar",
+      "1/2 cup butter, softened",
+      "1 egg",
+      "100g chocolate chips"
+    ],
+    "preparation": "Mix ingredients, form cookies, and bake at 180°C for 10 minutes.",
+    "preparation_time": 10,
+    "cooking_time": 10,
+    "total_time": 20,
+    "servings": 12,
+    "difficulty": "easy"
+  },
+  {
+    "name": "Quinoa Salad with Vegetables",
+    "ingredients": [
+      "quinoa",
+      "cucumber",
+      "tomato",
+      "red onion",
+      "parsley",
+      "lemon juice",
+      "olive oil"
+    ],
+    "preparation": "Cook the quinoa, chop the vegetables, and mix all ingredients.",
+    "preparation_time": 10,
+    "cooking_time": 15,
+    "total_time": 25,
+    "servings": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "name": "Pumpkin Soup",
+    "ingredients": [
+      "pumpkin",
+      "carrot",
+      "onion",
+      "garlic",
+      "vegetable broth",
+      "coconut milk"
+    ],
+    "preparation": "Sauté vegetables, add broth and coconut milk, simmer and blend.",
+    "preparation_time": 15,
+    "cooking_time": 20,
+    "total_time": 35,
+    "servings": 4,
+    "difficulty": "Medium"
+  },
+  {
+    "name": "Avocado and Egg Sandwich",
+    "ingredients": [
+      "avocado",
+      "egg",
+      "whole-grain bread",
+      "spinach",
+      "salt",
+      "pepper"
+    ],
+    "preparation": "Boil the egg, slice avocado, and assemble with bread and spinach.",
+    "preparation_time": 5,
+    "cooking_time": 10,
+    "total_time": 15,
+    "servings": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "name": "Spaghetti with Tomato Sauce",
+    "ingredients": ["spaghetti", "tomatoes", "garlic", "basil", "olive oil"],
+    "preparation": "Cook spaghetti, prepare sauce with tomatoes and garlic, mix with pasta.",
+    "preparation_time": 5,
+    "cooking_time": 15,
+    "total_time": 20,
+    "servings": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "name": "Chicken Stir-Fry with Vegetables",
+    "ingredients": [
+      "chicken fillet",
+      "broccoli",
+      "carrot",
+      "bell pepper",
+      "soy sauce",
+      "ginger"
+    ],
+    "preparation": "Stir-fry chicken and vegetables, add soy sauce and ginger, cook until tender.",
+    "preparation_time": 10,
+    "cooking_time": 15,
+    "total_time": 25,
+    "servings": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "name": "Oatmeal with Fruit",
+    "ingredients": ["oats", "milk", "apple", "banana", "honey", "cinnamon"],
+    "preparation": "Cook oatmeal in milk, add chopped fruit, honey, and cinnamon.",
+    "preparation_time": 5,
+    "cooking_time": 5,
+    "total_time": 10,
+    "servings": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "name": "Chili Con Carne",
+    "ingredients": [
+      "beef",
+      "red beans",
+      "tomatoes",
+      "onion",
+      "garlic",
+      "chili pepper"
+    ],
+    "preparation": "Sauté beef with onion and garlic, add beans and tomatoes, simmer on low heat.",
+    "preparation_time": 15,
+    "cooking_time": 30,
+    "total_time": 45,
+    "servings": 4,
+    "difficulty": "Medium"
+  },
+  {
+    "name": "Berry Smoothie",
+    "ingredients": ["frozen berries", "banana", "milk", "honey"],
+    "preparation": "Blend all ingredients until smooth.",
+    "preparation_time": 5,
+    "cooking_time": 0,
+    "total_time": 5,
+    "servings": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "name": "Pasta Carbonara",
+    "ingredients": [
+      "spaghetti",
+      "bacon",
+      "eggs",
+      "parmesan",
+      "garlic",
+      "pepper"
+    ],
+    "preparation": "Cook pasta, mix with bacon, eggs, and parmesan for the sauce.",
+    "preparation_time": 10,
+    "cooking_time": 15,
+    "total_time": 25,
+    "servings": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "name": "Guacamole",
+    "ingredients": [
+      "avocado",
+      "tomato",
+      "red onion",
+      "lime juice",
+      "garlic",
+      "salt"
+    ],
+    "preparation": "Mash avocado, add chopped vegetables and lime juice, season with salt.",
+    "preparation_time": 5,
+    "cooking_time": 0,
+    "total_time": 5,
+    "servings": 2,
+    "difficulty": "Easy"
+  }
+]
