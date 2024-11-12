@@ -7,6 +7,9 @@ const App = () => {
   const [recipes, setRecipes] = useState([]);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [currentDate, setCurrentDate] = useState(
+    new Date().toISOString().split("T")[0]
+  );
 
   useEffect(() => {
     const fetchRecipes = async () => {
@@ -26,6 +29,16 @@ const App = () => {
     fetchRecipes();
   }, []);
 
+  // const isDateAvailable = (recipeDate) => {
+  //   return recipeDate <= currentDate;
+  // };
+
+  // const handleCardClick = (isAvaliable) => {
+  //   if (!isAvaliable) {
+  //     alert("The card isnt avaliable. You have to wait for a moment!");
+  //   }
+  // };
+
   return (
     <div className="app-container">
       {loading ? (
@@ -38,6 +51,8 @@ const App = () => {
               recipe={recipe}
               image={recipe.image_path}
               onClick={() => setSelectedRecipe(recipe)}
+              // isAvailable={isDateAvailable(recipe.date)}
+              // onClick={() => handleCardClick(isDateAvailable(recipe.date))}
             />
           ))}
         </div>
