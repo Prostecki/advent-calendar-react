@@ -4,34 +4,6 @@ import RecipeCard from "./components/RecipeCard";
 import RecipeModal from "./components/RecipeModal";
 import "./App.css";
 
-const images = [
-  "src/assets/img/1.png",
-  "src/assets/img/2.png",
-  "src/assets/img/3.png",
-  "src/assets/img/4.png",
-  "src/assets/img/5.png",
-  "src/assets/img/6.png",
-  "src/assets/img/7.png",
-  "src/assets/img/8.png",
-  "src/assets/img/9.png",
-  "src/assets/img/10.png",
-  "src/assets/img/11.png",
-  "src/assets/img/12.png",
-  "src/assets/img/13.png",
-  "src/assets/img/14.png",
-  "src/assets/img/15.png",
-  "src/assets/img/16.png",
-  "src/assets/img/17.png",
-  "src/assets/img/18.png",
-  "src/assets/img/19.png",
-  "src/assets/img/20.png",
-  "src/assets/img/21.png",
-  "src/assets/img/22.png",
-  "src/assets/img/23.png",
-  "src/assets/img/24.png",
-  "src/assets/img/25.png",
-];
-
 const App = () => {
   const [recipes, setRecipes] = useState([]);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
@@ -56,7 +28,7 @@ const App = () => {
           <RecipeCard
             key={index}
             recipe={recipe}
-            image={images[index]}
+            image={recipe.image_path}
             onClick={() => setSelectedRecipe(recipe)}
           />
         ))}
