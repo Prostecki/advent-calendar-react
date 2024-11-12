@@ -15,23 +15,62 @@
   gap: 20px;
 }
 
-.recipe-list {
+.loader {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  align-items: center;
+  height: 100vh;
+  font-size: 24px;
+  color: #333;
+  animation: fadeIn 1s forwards; /* Добавим анимацию */
 }
 
+/* Стили для карточек */
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  opacity: 0; /* Прячем карточки при первом рендере */
+  animation: fadeInCards 1s forwards 1s; /* Плавно показываем карточки после задержки */
+}
 .recipe-card {
-  border: 1px solid grey;
-  width: 200px;
-  cursor: pointer;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.recipe-card:hover {
+  transform: scale(1.05);
 }
 
 .recipe-name {
-  margin: 10px 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
+/* Анимация плавного появления карточек */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Появление карточек с задержкой */
+@keyframes fadeInCards {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .recipe-image {
   width: 100%;
   border-radius: 8px;

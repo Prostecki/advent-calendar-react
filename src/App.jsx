@@ -1,4 +1,3 @@
-// App.js
 import React, { useEffect, useState } from "react";
 import RecipeCard from "./components/RecipeCard";
 import RecipeModal from "./components/RecipeModal";
@@ -7,6 +6,7 @@ import "./App.css";
 const App = () => {
   const [recipes, setRecipes] = useState([]);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchRecipes = async () => {
@@ -17,22 +17,32 @@ const App = () => {
       } catch (error) {
         console.error("Error fetching recipes:", error);
       }
+
+      setTimeout(() => {
+        setLoading(false);
+      }, 1000);
     };
+
     fetchRecipes();
   }, []);
 
   return (
     <div className="app-container">
-      <div className="recipe-list">
-        {recipes.map((recipe, index) => (
-          <RecipeCard
-            key={index}
-            recipe={recipe}
-            image={recipe.image_path}
-            onClick={() => setSelectedRecipe(recipe)}
-          />
-        ))}
-      </div>
+      {loading ? (
+        <div className="loader">Loading...</div>
+      ) : (
+        <div className="recipe-list">
+          {recipes.map((recipe) => (
+            <RecipeCard
+              key={recipe.id}
+              recipe={recipe}
+              image={recipe.image_path}
+              onClick={() => setSelectedRecipe(recipe)}
+            />
+          ))}
+        </div>
+      )}
+
       {selectedRecipe && (
         <RecipeModal
           recipe={selectedRecipe}
