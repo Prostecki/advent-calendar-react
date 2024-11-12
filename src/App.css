@@ -28,6 +28,10 @@
   cursor: pointer;
 }
 
+.recipe-name {
+  margin: 10px 0 10px;
+}
+
 .recipe-image {
   width: 100%;
   border-radius: 8px;

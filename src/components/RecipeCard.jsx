@@ -7,7 +7,7 @@ const RecipeCard = ({ recipe, image, onClick }) => {
       <div className="card-inner">
         <div className="card-front">
           <img src={image} alt={recipe.name} className="recipe-image" />
-          <h5 className="recipe-name">{recipe.name}</h5>
+          <h3 className="recipe-name">{recipe.name}</h3>
         </div>
       </div>
     </div>

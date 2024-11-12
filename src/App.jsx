@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import RecipeCard from "./components/RecipeCard";
 import RecipeModal from "./components/RecipeModal";
-import "./App.css"; // Подключаем стили
+import "./App.css";
 
 const images = [
   "src/assets/img/1.png",
