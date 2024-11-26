@@ -17,7 +17,7 @@ const RecipeModal = ({ recipe, onClose }) => {
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-lg p-6 mx-4 bg-white rounded-lg shadow-lg"
+        className="relative w-full max-w-lg p-6 mx-4 bg-white rounded-lg shadow-lg h-[90vh]"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -60,7 +60,7 @@ const RecipeModal = ({ recipe, onClose }) => {
           <div className="flex justify-center mt-4">
             <video
               ref={videoRef}
-              className="w-full max-w-md rounded-lg shadow-md"
+              className="w-full max-w-md relative h-[350px] rounded-lg shadow-md"
               controls
               controlsList="nodownload"
               onContextMenu={(e) => e.preventDefault()}
