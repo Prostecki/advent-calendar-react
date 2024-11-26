@@ -12,24 +12,13 @@ const RecipeModal = ({ recipe, onClose }) => {
   const videoRef = useRef(null);
 
   return (
-    <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
-      onClick={onClose}
-    >
-      <div
-        className="relative w-full max-w-lg p-6 mx-4 bg-white rounded-lg shadow-lg h-[90vh]"
-        onClick={(e) => e.stopPropagation()}
-      >
-        <button
-          className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
-          onClick={onClose}
-        >
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <button className="close-button" onClick={onClose}>
           ✖️
         </button>
-        <h2 className="mb-4 text-2xl font-semibold text-center text-gray-800">
-          {recipe.name}
-        </h2>
-        <div className="space-y-2">
+        <h2 className="modal-title">{recipe.name}</h2>
+        <div className="modal-text">
           <p>
             <strong className="font-medium">Ingredients:</strong>{" "}
             {recipe.ingredients.join(", ")}
@@ -57,10 +46,10 @@ const RecipeModal = ({ recipe, onClose }) => {
             <strong className="font-medium">Difficulty:</strong>{" "}
             {recipe.difficulty}
           </p>
-          <div className="flex justify-center mt-4">
+          <div className="video-container">
             <video
               ref={videoRef}
-              className="w-full max-w-md relative h-[350px] rounded-lg shadow-md"
+              className="video"
               controls
               controlsList="nodownload"
               onContextMenu={(e) => e.preventDefault()}

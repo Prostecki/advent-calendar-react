@@ -11,6 +11,9 @@ const App = () => {
     new Date().toISOString().split("T")[0]
   );
 
+  // Эта переменная управляет проверкой даты
+  const isDateCheckEnabled = false;
+
   useEffect(() => {
     const fetchRecipes = async () => {
       try {
@@ -29,15 +32,20 @@ const App = () => {
     fetchRecipes();
   }, []);
 
-  // const isDateAvailable = (recipeDate) => {
-  //   return recipeDate <= currentDate;
-  // };
+  const isDateAvailable = (recipeDate) => {
+    // Если проверка даты отключена, все рецепты доступны
+    // Закомментируйте следующую строку для временного отключения проверки
+    if (!isDateCheckEnabled) return true;
 
-  // const handleCardClick = (isAvaliable) => {
-  //   if (!isAvaliable) {
-  //     alert("The card isnt avaliable. You have to wait for a moment!");
-  //   }
-  // };
+    // Основная логика проверки
+    return recipeDate <= currentDate;
+  };
+
+  const handleCardClick = (isAvailable) => {
+    if (!isAvailable) {
+      alert("This recipe is not available yet. Please check back later!");
+    }
+  };
 
   return (
     <div className="app-container">
@@ -50,9 +58,12 @@ const App = () => {
               key={recipe.id}
               recipe={recipe}
               image={recipe.image_path}
-              onClick={() => setSelectedRecipe(recipe)}
-              // isAvailable={isDateAvailable(recipe.date)}
-              // onClick={() => handleCardClick(isDateAvailable(recipe.date))}
+              onClick={() =>
+                isDateAvailable(recipe.date)
+                  ? setSelectedRecipe(recipe)
+                  : handleCardClick(false)
+              }
+              isAvailable={isDateAvailable(recipe.date)}
             />
           ))}
         </div>
