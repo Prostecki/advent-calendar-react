@@ -38,7 +38,7 @@
     "servings": 2,
     "difficulty": "medium",
     "date": "2024-12-02",
-    "image_path": "/src/assets/img/2.png"
+    "image_path": "src/assets/img/2.png"
   },
   {
     "id": 3,
@@ -58,7 +58,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-03",
-    "image_path": "src/assets/img/3.png"
+    "image_path": "/assets/img/3.png"
   },
   {
     "id": 4,
