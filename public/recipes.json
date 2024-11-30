@@ -18,7 +18,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-01",
-    "image_path": "src/assets/img/1.png"
+    "image_path": "/img/1.png"
   },
   {
     "id": 2,
@@ -38,7 +38,7 @@
     "servings": 2,
     "difficulty": "medium",
     "date": "2024-12-02",
-    "image_path": "src/assets/img/2.png"
+    "image_path": "/img/2.png"
   },
   {
     "id": 3,
@@ -78,7 +78,7 @@
     "servings": 2,
     "difficulty": "medium",
     "date": "2024-12-04",
-    "image_path": "src/assets/img/4.png"
+    "image_path": "/img/4.png"
   },
   {
     "id": 5,
@@ -98,7 +98,7 @@
     "servings": 4,
     "difficulty": "easy",
     "date": "2024-12-05",
-    "image_path": "src/assets/img/5.png"
+    "image_path": "/img/5.png"
   },
   {
     "id": 6,
@@ -116,7 +116,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-06",
-    "image_path": "src/assets/img/6.png"
+    "image_path": "/img/6.png"
   },
   {
     "id": 7,
@@ -135,7 +135,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-07",
-    "image_path": "src/assets/img/7.png"
+    "image_path": "/img/7.png"
   },
   {
     "id": 8,
@@ -153,7 +153,7 @@
     "servings": 2,
     "difficulty": "medium",
     "date": "2024-12-08",
-    "image_path": "src/assets/img/8.png"
+    "image_path": "/img/8.png"
   },
   {
     "id": 9,
@@ -173,7 +173,7 @@
     "servings": 6,
     "difficulty": "medium",
     "date": "2024-12-09",
-    "image_path": "src/assets/img/9.png"
+    "image_path": "/img/9.png"
   },
   {
     "id": 10,
@@ -186,7 +186,7 @@
     "servings": 1,
     "difficulty": "easy",
     "date": "2024-12-10",
-    "image_path": "src/assets/img/10.png"
+    "image_path": "/img/10.png"
   },
   {
     "id": 11,
@@ -206,7 +206,7 @@
     "servings": 4,
     "difficulty": "medium",
     "date": "2024-12-11",
-    "image_path": "src/assets/img/11.png"
+    "image_path": "/img/11.png"
   },
   {
     "id": 12,
@@ -225,7 +225,7 @@
     "servings": 8,
     "difficulty": "medium",
     "date": "2024-12-12",
-    "image_path": "src/assets/img/12.png"
+    "image_path": "/img/12.png"
   },
   {
     "id": 13,
@@ -244,7 +244,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-13",
-    "image_path": "src/assets/img/13.png"
+    "image_path": "/img/13.png"
   },
   {
     "id": 14,
@@ -263,7 +263,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-14",
-    "image_path": "src/assets/img/14.png"
+    "image_path": "/img/14.png"
   },
   {
     "id": 15,
@@ -282,7 +282,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-15",
-    "image_path": "src/assets/img/15.png"
+    "image_path": "/img/15.png"
   },
   {
     "id": 16,
@@ -301,7 +301,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-16",
-    "image_path": "src/assets/img/16.png"
+    "image_path": "/img/16.png"
   },
   {
     "id": 17,
@@ -319,7 +319,7 @@
     "servings": 2,
     "difficulty": "medium",
     "date": "2024-12-17",
-    "image_path": "src/assets/img/17.png"
+    "image_path": "/img/17.png"
   },
   {
     "id": 18,
@@ -337,7 +337,7 @@
     "servings": 2,
     "difficulty": "medium",
     "date": "2024-12-18",
-    "image_path": "src/assets/img/18.png"
+    "image_path": "/img/18.png"
   },
   {
     "id": 19,
@@ -355,7 +355,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-19",
-    "image_path": "src/assets/img/19.png"
+    "image_path": "/img/19.png"
   },
   {
     "id": 20,
@@ -373,7 +373,7 @@
     "servings": 2,
     "difficulty": "medium",
     "date": "2024-12-20",
-    "image_path": "src/assets/img/20.png"
+    "image_path": "/img/20.png"
   },
   {
     "id": 21,
@@ -391,7 +391,7 @@
     "servings": 2,
     "difficulty": "medium",
     "date": "2024-12-21",
-    "image_path": "src/assets/img/21.png"
+    "image_path": "/img/21.png"
   },
   {
     "id": 22,
@@ -409,7 +409,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-22",
-    "image_path": "src/assets/img/22.png"
+    "image_path": "/img/22.png"
   },
   {
     "id": 23,
@@ -426,7 +426,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-23",
-    "image_path": "src/assets/img/23.png"
+    "image_path": "/img/23.png"
   },
   {
     "id": 24,
@@ -444,7 +444,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-24",
-    "image_path": "src/assets/img/24.png"
+    "image_path": "/img/24.png"
   },
   {
     "id": 25,
@@ -463,6 +463,6 @@
     "servings": 8,
     "difficulty": "easy",
     "date": "2024-12-25",
-    "image_path": "src/assets/img/25.png"
+    "image_path": "/img/25.png"
   }
 ]
