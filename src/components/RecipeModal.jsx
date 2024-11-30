@@ -53,7 +53,7 @@ const RecipeModal = ({ recipe, onClose }) => {
               controls
               controlsList="nodownload"
               onContextMenu={(e) => e.preventDefault()}
-              src="src/assets/img/test-video.mov"
+              src="img/test-video.mov"
               type="video/mov"
             />
           </div>

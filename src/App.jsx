@@ -4,6 +4,13 @@ import RecipeModal from "./components/RecipeModal";
 import "./App.css";
 
 const App = () => {
+  const positions = [
+    { top: "1rem", left: "10px" },
+    { top: "20px", left: "20px" },
+    { top: "30px", left: "30px" },
+    { top: "40px", left: "40px" },
+  ];
+
   const [recipes, setRecipes] = useState([]);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -53,8 +60,9 @@ const App = () => {
         <div className="loader">Loading...</div>
       ) : (
         <div className="recipe-list">
-          {recipes.map((recipe) => (
+          {recipes.map((recipe, index) => (
             <RecipeCard
+              position={positions[index % positions.length]}
               key={recipe.id}
               recipe={recipe}
               image={recipe.image_path}
