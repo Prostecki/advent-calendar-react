@@ -1,22 +1,80 @@
 [
   {
     "id": 1,
-    "name": "Spaghetti Bolognese",
+    "name": "Pistage-cookies med vitchoklad, pistagekräm och hallongel",
     "ingredients": [
-      "200g spaghetti",
-      "100g ground beef",
-      "1 onion, chopped",
-      "2 garlic cloves, minced",
-      "400g canned tomatoes",
-      "50ml red wine",
-      "Salt and pepper to taste"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Heat a pan and cook the beef until browned. Add the onion and garlic, then stir in tomatoes and wine. Simmer for 20 minutes.",
-    "preparation_time": 10,
-    "cooking_time": 30,
-    "total_time": 40,
-    "servings": 2,
-    "difficulty": "easy",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
+    "cooking_time": 12,
+    "total_time": 60,
+    "servings": 15,
+    "difficulty": "medium",
     "date": "2024-12-01",
     "image_path": "/img/1.png",
     "video_path": "/videos/1.MOV"
@@ -464,6 +522,8 @@
     "servings": 8,
     "difficulty": "easy",
     "date": "2024-12-25",
-    "image_path": "/img/25.png"
+    "image_path": "/img/25.png",
+    "border": "white",
+    "red_day": "rgb(160, 0, 0)"
   }
 ]

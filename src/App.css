@@ -1,9 +1,5 @@
-#root {
-  @apply max-w-screen-lg mx-auto text-center;
-}
-
 .app-container {
-  @apply flex flex-wrap justify-center gap-5 md:gap-10 lg:gap-20 p-4;
+  @apply flex flex-wrap justify-center gap-5;
 }
 
 .loader {
@@ -13,9 +9,16 @@
 .recipe-list {
   @apply grid grid-cols-1 gap-4 p-4 sm:grid-cols-3 md:grid-cols-5;
 }
+.card-front {
+  @apply w-[200px] h-[200px];
+}
+
+.card-inner {
+  @apply w-full relative inset-0 h-full;
+}
 
 .recipe-card {
-  @apply relative bg-white rounded-lg shadow-md p-10 transition-transform duration-300 ease-in-out cursor-pointer hover:scale-105;
+  @apply relative w-52 h-52 bg-white rounded-lg shadow-md transition-transform duration-300 ease-in-out cursor-pointer hover:scale-105;
 }
 
 .recipe-name {
@@ -31,7 +34,7 @@
 }
 
 .recipe-image {
-  @apply w-full rounded-lg;
+  @apply w-[140px] rounded-lg;
 }
 
 .modal-backdrop {

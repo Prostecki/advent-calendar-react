@@ -6,6 +6,10 @@ export default {
       maxHeight: {
         "4/5": "80%", // Добавляем класс max-h-4/5
       },
+      backgroundColor: {
+        beige: "rgb(236, 217, 195)",
+        dark_beige: "rgb(216, 189, 159)",
+      },
     },
   },
   plugins: [],

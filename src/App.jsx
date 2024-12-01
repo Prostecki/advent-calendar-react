@@ -4,11 +4,18 @@ import RecipeModal from "./components/RecipeModal";
 import "./App.css";
 
 const App = () => {
-  const positions = [
-    { top: "1rem", left: "10px" },
-    { top: "20px", left: "20px" },
-    { top: "30px", left: "30px" },
-    { top: "40px", left: "40px" },
+  const imagePositions = [
+    { top: "1.5rem", left: "3.5rem" },
+    { top: "3.5rem", left: "1rem" },
+    { top: "2rem", left: "3.5rem" },
+    { top: "2rem", left: "0rem" },
+  ];
+
+  const numberPositions = [
+    { top: "6rem", left: "2rem" },
+    { top: "0rem", left: "8rem" },
+    { top: "6rem", left: "1.5rem" },
+    { top: "6.5rem", left: "8rem" },
   ];
 
   const [recipes, setRecipes] = useState([]);
@@ -19,7 +26,7 @@ const App = () => {
   );
 
   // Эта переменная управляет проверкой даты
-  const isDateCheckEnabled = true;
+  const isDateCheckEnabled = false;
 
   useEffect(() => {
     const fetchRecipes = async () => {
@@ -55,14 +62,15 @@ const App = () => {
   };
 
   return (
-    <div className="app-container">
+    <div className="app-container bg-dark_beige">
       {loading ? (
         <div className="loader">Loading...</div>
       ) : (
         <div className="recipe-list">
           {recipes.map((recipe, index) => (
             <RecipeCard
-              position={positions[index % positions.length]}
+              imagePosition={imagePositions[index % imagePositions.length]}
+              numberPosition={numberPositions[index % numberPositions.length]}
               key={recipe.id}
               recipe={recipe}
               image={recipe.image_path}

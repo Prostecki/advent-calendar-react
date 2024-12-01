@@ -19,33 +19,35 @@ const RecipeModal = ({ recipe, onClose }) => {
         </button>
         <h2 className="modal-title">{recipe.name}</h2>
         <div className="modal-text">
-          <p>
-            <strong className="font-medium">Ingredients:</strong>{" "}
-            {recipe.ingredients.join(", ")}
-          </p>
-          <p>
-            <strong className="font-medium">Preparation:</strong>{" "}
-            {recipe.preparation}
-          </p>
-          <p>
-            <strong className="font-medium">Preparation Time:</strong>{" "}
-            {recipe.preparation_time} min
-          </p>
-          <p>
-            <strong className="font-medium">Cooking Time:</strong>{" "}
-            {recipe.cooking_time} min
-          </p>
+          {recipe.ingredients.map((item, i) => (
+            <p key={i}>
+              <strong className="font-medium">
+                Ingredients of {item.title}:{" "}
+              </strong>{" "}
+              {/* {recipe.ingredients.join(", ")} */}
+              {item.ingredients_list.join(", ")}
+            </p>
+          ))}
+          {recipe.preparation.map((item, i) => (
+            <div key={i}>
+              <h3 className="font-medium">Tilllagning of {item.title}</h3>
+              <ol>
+                {item.description.map((step, i) => (
+                  <li
+                    className="flex items-center before:content-['🍪'] before:mr-2 before:text-xl"
+                    key={i}
+                  >
+                    {step}
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ))}
           <p>
             <strong className="font-medium">Total Time:</strong>{" "}
             {recipe.total_time} min
           </p>
-          <p>
-            <strong className="font-medium">Servings:</strong> {recipe.servings}
-          </p>
-          <p>
-            <strong className="font-medium">Difficulty:</strong>{" "}
-            {recipe.difficulty}
-          </p>
+
           <div className="video-container">
             <video
               ref={videoRef}
