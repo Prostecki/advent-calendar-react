@@ -19,7 +19,7 @@ const App = () => {
   );
 
   // Эта переменная управляет проверкой даты
-  const isDateCheckEnabled = false;
+  const isDateCheckEnabled = true;
 
   useEffect(() => {
     const fetchRecipes = async () => {
