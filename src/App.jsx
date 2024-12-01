@@ -6,9 +6,9 @@ import "./App.css";
 const App = () => {
   const imagePositions = [
     { top: "1.5rem", left: "3.5rem" },
-    { top: "3.5rem", left: "1rem" },
+    { top: "3.5rem", left: "3rem" },
     { top: "2rem", left: "3.5rem" },
-    { top: "2rem", left: "0rem" },
+    { top: "2rem", left: "1rem" },
   ];
 
   const numberPositions = [
@@ -26,7 +26,7 @@ const App = () => {
   );
 
   // Эта переменная управляет проверкой даты
-  const isDateCheckEnabled = false;
+  const isDateCheckEnabled = true;
 
   useEffect(() => {
     const fetchRecipes = async () => {

@@ -19,17 +19,22 @@ const RecipeCard = ({
       className={`recipe-card ${isAvailable ? "" : "disabled"}`}
       onClick={handleCardClick}
     >
-      <div className="card-inner rounded-lg bg-beige">
+      <div className="card-inner rounded-lg bg-beige relative overflow-hidden">
+        {/* Изображение с эффектом fade */}
         <img
           src={image}
           alt={recipe.name}
           className="recipe-image"
           style={{
             position: "absolute",
-            top: imagePosition.top,
-            left: imagePosition.left,
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
           }}
         />
+        {/* Цифра сверху */}
         <div
           style={{
             position: "absolute",
@@ -37,11 +42,11 @@ const RecipeCard = ({
             left: numberPosition.left,
             border: recipe.border || "white",
             color: recipe.red_day || "white",
-            filter: "drop-shadow(2px 2px 3px black)",
           }}
         >
           <h3 className="recipe-name">{recipe.id}</h3>
         </div>
+        {/* Сообщение, если рецепт недоступен */}
         {!isAvailable && <div className="locked-message">Soon...</div>}
       </div>
     </div>
