@@ -84,14 +84,74 @@
     "id": 2,
     "name": "Chicken Curry",
     "ingredients": [
-      "200g chicken breast, cubed",
-      "1 onion, chopped",
-      "1 garlic clove, minced",
-      "100ml coconut milk",
-      "2 tbsp curry powder",
-      "Salt to taste"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Cook the chicken in a pan until golden. Add onion, garlic, and curry powder. Stir in coconut milk and simmer for 15 minutes.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 10,
     "cooking_time": 20,
     "total_time": 30,
@@ -104,14 +164,74 @@
     "id": 3,
     "name": "Vegetable Stir-Fry",
     "ingredients": [
-      "100g broccoli",
-      "1 red bell pepper, sliced",
-      "1 carrot, sliced",
-      "50g snow peas",
-      "2 tbsp soy sauce",
-      "1 tbsp olive oil"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Heat oil in a pan, add vegetables and stir-fry until tender. Pour in soy sauce and cook for another minute.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 10,
     "total_time": 15,
@@ -124,14 +244,74 @@
     "id": 4,
     "name": "Beef Stroganoff",
     "ingredients": [
-      "200g beef strips",
-      "1 onion, chopped",
-      "200ml sour cream",
-      "100g mushrooms, sliced",
-      "Salt and pepper to taste",
-      "1 tbsp olive oil"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Heat oil in a pan and cook beef until brown. Add onion and mushrooms, then stir in sour cream. Simmer for 10 minutes.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 10,
     "cooking_time": 20,
     "total_time": 30,
@@ -144,14 +324,74 @@
     "id": 5,
     "name": "Pancakes",
     "ingredients": [
-      "1 cup flour",
-      "1 cup milk",
-      "1 egg",
-      "1 tbsp sugar",
-      "1 tbsp butter, melted",
-      "Pinch of salt"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Mix all ingredients in a bowl until smooth. Pour batter into a hot pan and cook until bubbles form, then flip.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 10,
     "total_time": 15,
@@ -164,12 +404,74 @@
     "id": 6,
     "name": "Caesar Salad",
     "ingredients": [
-      "2 cups romaine lettuce, chopped",
-      "1/2 cup croutons",
-      "1/4 cup grated Parmesan cheese",
-      "2 tbsp Caesar dressing"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Toss all ingredients together in a large bowl. Serve immediately.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 0,
     "total_time": 5,
@@ -182,13 +484,74 @@
     "id": 7,
     "name": "Fish Tacos",
     "ingredients": [
-      "2 fillets white fish (e.g., cod)",
-      "1/2 cup shredded cabbage",
-      "1/4 cup salsa",
-      "1 lime, cut into wedges",
-      "4 small tortillas"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Cook the fish in a pan until golden, then flake into pieces. Serve with cabbage, salsa, and lime in tortillas.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 10,
     "total_time": 15,
@@ -201,12 +564,74 @@
     "id": 8,
     "name": "Margarita Pizza",
     "ingredients": [
-      "1 pizza dough",
-      "1/2 cup tomato sauce",
-      "1 cup mozzarella cheese",
-      "Fresh basil leaves"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Spread tomato sauce over the dough. Add cheese and bake at 220°C for 10 minutes. Top with basil leaves.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 10,
     "total_time": 15,
@@ -220,14 +645,74 @@
     "id": 9,
     "name": "Chocolate Cake",
     "ingredients": [
-      "1 cup flour",
-      "1/2 cup cocoa powder",
-      "1 cup sugar",
-      "2 eggs",
-      "1/2 cup milk",
-      "1/4 cup butter"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Mix dry ingredients, then add wet ingredients and combine. Pour into a pan and bake at 180°C for 25 minutes.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 10,
     "cooking_time": 25,
     "total_time": 35,
@@ -239,8 +724,75 @@
   {
     "id": 10,
     "name": "Grilled Cheese Sandwich",
-    "ingredients": ["2 slices bread", "2 slices cheese", "Butter"],
-    "preparation": "Butter the bread, place cheese in between, and grill until golden brown.",
+    "ingredients": [
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
+    ],
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 5,
     "total_time": 10,
@@ -253,14 +805,74 @@
     "id": 11,
     "name": "Lasagna",
     "ingredients": [
-      "12 lasagna noodles",
-      "500g ground beef",
-      "1 onion, chopped",
-      "400g tomato sauce",
-      "2 cups ricotta cheese",
-      "1 cup mozzarella cheese"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Cook noodles. Brown the beef with onions. Layer noodles, sauce, and cheese, then bake at 180°C for 40 minutes.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 20,
     "cooking_time": 40,
     "total_time": 60,
@@ -273,13 +885,74 @@
     "id": 12,
     "name": "Apple Pie",
     "ingredients": [
-      "2 cups flour",
-      "1 cup butter",
-      "1/4 cup sugar",
-      "4 apples, peeled and sliced",
-      "1 tsp cinnamon"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Mix the dough and form a crust. Add sliced apples with cinnamon, then top with dough. Bake at 180°C for 45 minutes.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 15,
     "cooking_time": 45,
     "total_time": 60,
@@ -292,13 +965,74 @@
     "id": 13,
     "name": "Fried Rice",
     "ingredients": [
-      "2 cups cooked rice",
-      "1/2 cup frozen peas",
-      "2 eggs",
-      "1/4 cup soy sauce",
-      "1 tbsp sesame oil"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Heat oil in a pan. Scramble eggs, then add rice and peas. Stir in soy sauce and sesame oil.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 10,
     "total_time": 15,
@@ -311,13 +1045,74 @@
     "id": 14,
     "name": "Pasta Primavera",
     "ingredients": [
-      "200g pasta",
-      "1 zucchini, sliced",
-      "1 red bell pepper, sliced",
-      "1 cup cherry tomatoes",
-      "2 tbsp olive oil"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Cook pasta. Sauté vegetables in olive oil. Combine with pasta and serve.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 10,
     "cooking_time": 10,
     "total_time": 20,
@@ -330,13 +1125,74 @@
     "id": 15,
     "name": "Tacos",
     "ingredients": [
-      "4 small tortillas",
-      "100g ground beef",
-      "1 onion, chopped",
-      "1 tomato, chopped",
-      "1/4 cup shredded cheese"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Cook beef with onion. Serve in tortillas with tomato, cheese, and any preferred toppings.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 10,
     "total_time": 15,
@@ -350,13 +1206,74 @@
     "id": 16,
     "name": "Vegetarian Chili",
     "ingredients": [
-      "1 can kidney beans",
-      "1 can black beans",
-      "1 onion, chopped",
-      "2 tomatoes, chopped",
-      "1 tsp chili powder"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Simmer all ingredients in a pot for 20 minutes until heated through.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 10,
     "cooking_time": 20,
     "total_time": 30,
@@ -369,12 +1286,74 @@
     "id": 17,
     "name": "Chicken Alfredo",
     "ingredients": [
-      "200g chicken breast, cubed",
-      "100ml cream",
-      "1/2 cup Parmesan cheese",
-      "200g pasta"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Cook chicken, then stir in cream and Parmesan to make the sauce. Combine with pasta.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 10,
     "cooking_time": 15,
     "total_time": 25,
@@ -387,12 +1366,74 @@
     "id": 18,
     "name": "Shrimp Scampi",
     "ingredients": [
-      "200g shrimp",
-      "2 cloves garlic, minced",
-      "100ml white wine",
-      "200g pasta"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Cook garlic in a pan, add shrimp and wine, then simmer for 5 minutes. Serve over pasta.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 10,
     "total_time": 15,
@@ -405,12 +1446,74 @@
     "id": 19,
     "name": "Egg Salad",
     "ingredients": [
-      "4 boiled eggs, chopped",
-      "2 tbsp mayonnaise",
-      "1 tbsp mustard",
-      "1/4 cup celery, chopped"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Mix all ingredients in a bowl and serve.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 0,
     "total_time": 5,
@@ -423,12 +1526,74 @@
     "id": 20,
     "name": "Steak with Roasted Potatoes",
     "ingredients": [
-      "2 steaks",
-      "4 potatoes, cubed",
-      "1 tbsp olive oil",
-      "Salt and pepper"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Roast potatoes in olive oil at 200°C for 25 minutes. Cook steaks to desired doneness.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 10,
     "cooking_time": 25,
     "total_time": 35,
@@ -441,12 +1606,74 @@
     "id": 21,
     "name": "Chicken Parmesan",
     "ingredients": [
-      "2 chicken breasts",
-      "1/2 cup breadcrumbs",
-      "1/4 cup Parmesan cheese",
-      "1 cup marinara sauce"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Coat chicken with breadcrumbs and Parmesan, then bake at 180°C for 20 minutes. Top with marinara sauce.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 10,
     "cooking_time": 20,
     "total_time": 30,
@@ -459,12 +1686,74 @@
     "id": 22,
     "name": "Beef Tacos",
     "ingredients": [
-      "100g ground beef",
-      "4 tortillas",
-      "1/2 onion, chopped",
-      "1/2 cup shredded cheese"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Cook beef with onion, then serve in tortillas with cheese.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 10,
     "total_time": 15,
@@ -478,11 +1767,74 @@
     "id": 23,
     "name": "Pumpkin Soup",
     "ingredients": [
-      "500g pumpkin, peeled and cubed",
-      "1 onion, chopped",
-      "500ml vegetable broth"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Simmer pumpkin and onion in broth until soft. Blend until smooth.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 10,
     "cooking_time": 20,
     "total_time": 30,
@@ -495,12 +1847,74 @@
     "id": 24,
     "name": "Vegetable Soup",
     "ingredients": [
-      "2 carrots, sliced",
-      "1 potato, cubed",
-      "1 onion, chopped",
-      "500ml vegetable broth"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Simmer vegetables in broth until tender. Serve hot.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 5,
     "cooking_time": 20,
     "total_time": 25,
@@ -513,13 +1927,74 @@
     "id": 25,
     "name": "Banana Bread",
     "ingredients": [
-      "3 ripe bananas",
-      "1 cup flour",
-      "1/2 cup sugar",
-      "1/4 cup butter",
-      "1 egg"
+      {
+        "title": "Deg",
+        "ingredients_list": [
+          "70g socker",
+          "100g farinsocker",
+          "100g smör",
+          "1 ägg",
+          "0.5 tsk bakpulver",
+          "1 tsk vaniljpulver",
+          "100g pistagenötter",
+          "160g vetemjöl",
+          "140g vitchoklad"
+        ]
+      },
+      {
+        "title": "Hallongel",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "40g socker",
+          "1msk majsstärkelse",
+          "4msk vatten"
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+      }
     ],
-    "preparation": "Mash bananas and mix with other ingredients. Bake at 180°C for 60 minutes.",
+    "preparation": [
+      {
+        "title": "Deg",
+        "description": [
+          "Blanda farinsocker, socker och smör.",
+          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
+          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
+          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
+          "Kyl degen ca 30 minuter.",
+          "Forma till bollar, ca 70g per boll.",
+          "Grädda i 170°C i 10-12 minuter.",
+          "Forma med stansad ring om önskas.",
+          "Låt svalna innan du flyttar på dem från plåten.",
+          "Dekorera med pistagekräm, hallongel, bär och nötter."
+        ]
+      },
+      {
+        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "description": [
+          "Koka upp 150g hallon tills bären börjat ge saft.",
+          "Häll över kokta hallon i en skål och mal med stavmixer.",
+          "Sila bort kärnor så du endast har saft och puré kvar.",
+          "Lägg över purén till kastrullen och tillsätt 40g socker.",
+          "Låt koka i 2 minuter.",
+          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
+          "Låt koka vid omrörning tills massan tjocknat.",
+          "Kyl."
+        ]
+      },
+      {
+        "title": "Pistagekräm",
+        "description": [
+          "Rosta 150g pistagenötter i 150°C.",
+          "Koka 100g socker med 25g vatten tills det karamelliseras.",
+          "Häll karamell över pistagenötter och låt svalna.",
+          "Blanda till en slät pasta i en blender eller matberedare.",
+          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+        ]
+      }
+    ],
     "preparation_time": 10,
     "cooking_time": 60,
     "total_time": 70,

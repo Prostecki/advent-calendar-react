@@ -9,9 +9,7 @@ const RecipeCard = ({
   numberPosition,
 }) => {
   const handleCardClick = () => {
-    if (isAvailable) {
-      onClick();
-    }
+    onClick();
   };
 
   return (
@@ -20,7 +18,6 @@ const RecipeCard = ({
       onClick={handleCardClick}
     >
       <div className="card-inner rounded-lg bg-beige relative overflow-hidden">
-        {/* Изображение с эффектом fade */}
         <img
           src={image}
           alt={recipe.name}
@@ -46,8 +43,7 @@ const RecipeCard = ({
         >
           <h3 className="recipe-name">{recipe.id}</h3>
         </div>
-        {/* Сообщение, если рецепт недоступен */}
-        {!isAvailable && <div className="locked-message">Soon...</div>}
+        {/* {!isAvailable && <div className="locked-message">Soon...</div>} */}
       </div>
     </div>
   );

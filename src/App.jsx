@@ -24,6 +24,8 @@ const App = () => {
   const [currentDate, setCurrentDate] = useState(
     new Date().toISOString().split("T")[0]
   );
+  const today = new Date();
+  const day = String(today.getDate()).padStart(2, "0");
 
   // Эта переменная управляет проверкой даты
   const isDateCheckEnabled = true;
@@ -74,11 +76,7 @@ const App = () => {
               key={recipe.id}
               recipe={recipe}
               image={recipe.image_path}
-              onClick={() =>
-                isDateAvailable(recipe.date)
-                  ? setSelectedRecipe(recipe)
-                  : handleCardClick(false)
-              }
+              onClick={() => setSelectedRecipe(recipe)}
               isAvailable={isDateAvailable(recipe.date)}
             />
           ))}
@@ -87,7 +85,9 @@ const App = () => {
 
       {selectedRecipe && (
         <RecipeModal
+          day={day}
           recipe={selectedRecipe}
+          currentDate={currentDate}
           onClose={() => setSelectedRecipe(null)}
         />
       )}
