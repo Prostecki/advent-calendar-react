@@ -47,9 +47,9 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                       {item.ingredients_list.map((item, i) => (
                         <li
                           key={i}
-                          className="flex items-center gap-1 my-2 w-max before:mr-2 before:text-xl"
+                          className="w-[100%] flex items-center gap-1 my-2 before:mr-2 before:text-xl"
                         >
-                          <TbChristmasTree />
+                          <TbChristmasTree className="w-[25px] h-[25px]" />
                           {item}
                         </li>
                       ))}
@@ -74,7 +74,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                           onClick={() => handleStepClick(step)}
                         >
                           <span
-                            className={`border border-black inline-block w-4 h-4 ${
+                            className={`border border-black inline-block flex-shrink-0 w-5 h-5 rounded ${
                               completedSteps.includes(step)
                                 ? "bg-green-600"
                                 : "bg-white"

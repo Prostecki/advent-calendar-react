@@ -82,83 +82,72 @@
   },
   {
     "id": 2,
-    "name": "Chicken Curry",
+    "name": "Saffransbullar med mandelmassa",
     "ingredients": [
+      {
+        "title": "Fyllning",
+        "ingredients_list": [
+          "300g rumsvarmt smör",
+          "400g mandelmassa",
+          "150g strösocker"
+        ]
+      },
       {
         "title": "Deg",
         "ingredients_list": [
-          "70g socker",
-          "100g farinsocker",
-          "100g smör",
-          "1 ägg",
-          "0.5 tsk bakpulver",
-          "1 tsk vaniljpulver",
-          "100g pistagenötter",
-          "160g vetemjöl",
-          "140g vitchoklad"
+          "500g mjölk",
+          "2pkt torr saffran (á 0,5g/pkt) eller 2pkt saffranspasta (á 15g/pkt)",
+          "50g färsk jäst",
+          "1krm salt",
+          "250g strösocker",
+          "250g naturell kesella 10%",
+          "150g rumsvarmt smör",
+          "1100-1200g vetemjöl",
+          "1st ägg och 3tsk vatten till pensling",
+          "ca 100g mandelspån till topping",
+          "ca 100g pärlsocker till topping"
         ]
       },
       {
-        "title": "Hallongel",
-        "ingredients_list": [
-          "150g fryst hallon",
-          "40g socker",
-          "1msk majsstärkelse",
-          "4msk vatten"
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+        "title": "Pensling",
+        "ingredients_list": ["100g strösocker", "100g vatten"]
       }
     ],
     "preparation": [
       {
+        "title": "Fyllning",
+        "description": [
+          "Blanda ihop alla ingredienser till bredbar smet, ställ åt sidan."
+        ]
+      },
+      {
         "title": "Deg",
         "description": [
-          "Blanda farinsocker, socker och smör.",
-          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
-          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
-          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
-          "Kyl degen ca 30 minuter.",
-          "Forma till bollar, ca 70g per boll.",
-          "Grädda i 170°C i 10-12 minuter.",
-          "Forma med stansad ring om önskas.",
-          "Låt svalna innan du flyttar på dem från plåten.",
-          "Dekorera med pistagekräm, hallongel, bär och nötter."
+          "Börja med att impulsvärma mjölken i mikron till 37°C. Är temperaturen lägre, kan jäsningen ta längre tid. Är mjölken varmare - låt svalna, annars dödar du jästen.",
+          "Smula färsk jäst i bunke med mjölken tills jästen har löst upp sig.",
+          "Tillsätt sedan saffran, rumsvarmt smör i bitar, socker, salt, kesella och hälften av mjölet. Arbeta ihop till en kladdig deg och tillsätt mer mjöl efter behov tills du blandat in all mjöl. Tips!!! För att få knallgula bullar kan du värma smör med saffran innan du tillsätter ingredienserna till degblandningen.",
+          "Bearbeta degen ordentligt i minst 10 minuter med maskin och några minuter extra för hand. Täck degbunken med handduk och låt jäsa i 40–60 min i varm miljö.",
+          "När degen har tvådubblats, tippa ut den på en mjölad arbetsyta och kavla ut den till en rektangel. Bred ut fyllningen över hela degen och vik den sedan på mitten. Kavla till en jämn rektangel.",
+          "Skär 1 cm tjocka remsor längs med kortsidan och snurra eller knyt till bullar. Lägg bullarna på plåtar med bakplåtspapper.",
+          "Sätt ugnen på 200°C, över- och undervärme.",
+          "Vispa ihop ingredienserna till penslingen lite lätt och pensla bullarna. Toppa med flisad mandel och pärlsocker. Grädda sedan bullarna i mitten av ugnen i 15–20 minuter, eller tills de fått fin färg. Gör sockerlagen under tiden."
         ]
       },
       {
-        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "title": "Pensling",
         "description": [
-          "Koka upp 150g hallon tills bären börjat ge saft.",
-          "Häll över kokta hallon i en skål och mal med stavmixer.",
-          "Sila bort kärnor så du endast har saft och puré kvar.",
-          "Lägg över purén till kastrullen och tillsätt 40g socker.",
-          "Låt koka i 2 minuter.",
-          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
-          "Låt koka vid omrörning tills massan tjocknat.",
-          "Kyl."
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "description": [
-          "Rosta 150g pistagenötter i 150°C.",
-          "Koka 100g socker med 25g vatten tills det karamelliseras.",
-          "Häll karamell över pistagenötter och låt svalna.",
-          "Blanda till en slät pasta i en blender eller matberedare.",
-          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+          "Koka vatten och socker tills sockret har lösts upp. Pensla bullarna med lagen så fort de kommit ut ur ugnen. Låt bullarna svalna."
         ]
       }
     ],
     "preparation_time": 10,
     "cooking_time": 20,
     "total_time": 30,
-    "servings": 2,
+    "servings": "ca 40 stora bullar eller ca 60 små",
     "difficulty": "medium",
     "date": "2024-12-02",
-    "image_path": "/img/2.png"
+    "image_path": "/img/2.png",
+    "video_path": "/videos/2.MOV"
   },
   {
     "id": 3,
