@@ -26,7 +26,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                 {recipe.ingredients.map((item, i) => (
                   <p key={i}>
                     <strong className="font-extrabold text-md">
-                      Ingredientser of {item.title}:{" "}
+                      Ingredientser {item.title}:{" "}
                     </strong>{" "}
                     {item.ingredients_list.join(", ")}
                   </p>
@@ -35,7 +35,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                   <div key={i}>
                     <hr className="my-4" />
                     <h3 className="font-extrabold text-xl">
-                      Tilllagning of {item.title}
+                      Tilllagning {item.title}
                     </h3>
                     <ol>
                       {item.description.map((step, i) => (
