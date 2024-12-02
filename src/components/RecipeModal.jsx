@@ -45,7 +45,10 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                     </h1>
                     <ol key={i}>
                       {item.ingredients_list.map((item, i) => (
-                        <li className="flex items-center gap-1 my-2 w-max before:mr-2 before:text-xl">
+                        <li
+                          key={i}
+                          className="flex items-center gap-1 my-2 w-max before:mr-2 before:text-xl"
+                        >
                           <TbChristmasTree />
                           {item}
                         </li>
@@ -59,15 +62,15 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                     <h3 className="font-extrabold text-xl">
                       Tillagning {item.title}
                     </h3>
-                    <ol>
+                    <ol className="max-w-full break-words">
                       {item.description.map((step, i) => (
                         <li
-                          className={`w-max flex items-center gap-2 before:text-xl cursor-pointer ${
+                          key={i}
+                          className={`w-[90%] flex items-center gap-2 cursor-pointer break-words ${
                             completedSteps.includes(step)
                               ? "line-through text-green-600"
                               : "hover:text-blue-500 hover:underline"
                           }`}
-                          key={i}
                           onClick={() => handleStepClick(step)}
                         >
                           <span
