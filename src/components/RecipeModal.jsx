@@ -14,7 +14,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
 
   return (
     <>
-      <div className="modal-overlay" onClick={onClose}>
+      <section className="modal-overlay" onClick={onClose}>
         <div className="modal-content" onClick={(e) => e.stopPropagation()}>
           {isAvailable ? (
             <>
@@ -24,12 +24,18 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
               <h2 className="modal-title">{recipe.name}</h2>
               <div className="modal-text">
                 {recipe.ingredients.map((item, i) => (
-                  <p key={i}>
-                    <strong className="font-extrabold text-md">
+                  <div key={i}>
+                    <h1 className="font-extrabold text-md">
                       Ingredientser {item.title}:{" "}
-                    </strong>{" "}
-                    {item.ingredients_list.join(", ")}
-                  </p>
+                    </h1>
+                    <ol key={i}>
+                      {item.ingredients_list.map((item, i) => (
+                        <li className="ml-6 w-max list-decimal before:mr-2 before:text-xl">
+                          {item}
+                        </li>
+                      ))}
+                    </ol>
+                  </div>
                 ))}
                 {recipe.preparation.map((item, i) => (
                   <div key={i}>
@@ -74,7 +80,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
             // <h1>Det kommer på {day}</h1>
           )}
         </div>
-      </div>
+      </section>
     </>
   );
 };
