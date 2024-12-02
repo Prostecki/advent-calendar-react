@@ -75,7 +75,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
             </>
           ) : (
             <h1 className="text-3xl text-center font-extrabold">
-              Kommer på {recipe.id}:e december!
+              Kommer den {recipe.id}:e december!
             </h1>
             // <h1>Det kommer på {day}</h1>
           )}
