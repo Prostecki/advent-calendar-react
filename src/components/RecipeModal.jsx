@@ -41,7 +41,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                 {recipe.ingredients.map((item, i) => (
                   <div key={i}>
                     <h1 className="font-extrabold text-md">
-                      Ingredienser {item.title}:{" "}
+                      Ingredienser {item.title || ""}:{" "}
                     </h1>
                     <ol key={i}>
                       {item.ingredients_list.map((item, i) => (
@@ -69,7 +69,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                           className={`w-[90%] flex items-center gap-2 cursor-pointer break-words ${
                             completedSteps.includes(step)
                               ? "line-through text-green-600"
-                              : "hover:text-blue-500 hover:underline"
+                              : "hover:text-blue-500"
                           }`}
                           onClick={() => handleStepClick(step)}
                         >
@@ -87,8 +87,12 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                   </div>
                 ))}
                 <p>
-                  <strong className="font-extrabold">Total Time:</strong>{" "}
+                  <strong className="font-extrabold">Total tid:</strong>{" "}
                   {recipe.total_time} min
+                </p>
+                <p>
+                  <strong className="font-extrabold">Portioner:</strong>{" "}
+                  {recipe.servings}
                 </p>
 
                 <div className="video-container">

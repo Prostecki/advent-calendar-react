@@ -73,7 +73,7 @@
     ],
     "cooking_time": 12,
     "total_time": 60,
-    "servings": 15,
+    "servings": "ca 15 kakor",
     "difficulty": "medium",
     "date": "2024-12-01",
     "image_path": "/img/1.png",
@@ -142,7 +142,7 @@
     ],
     "preparation_time": 10,
     "cooking_time": 20,
-    "total_time": 30,
+    "total_time": "ca 120",
     "servings": "ca 40 stora bullar eller ca 60 små",
     "difficulty": "medium",
     "date": "2024-12-02",
@@ -151,83 +151,40 @@
   },
   {
     "id": 3,
-    "name": "Vegetable Stir-Fry",
+    "name": "Citronkakor",
     "ingredients": [
       {
-        "title": "Deg",
         "ingredients_list": [
-          "70g socker",
-          "100g farinsocker",
-          "100g smör",
-          "1 ägg",
-          "0.5 tsk bakpulver",
-          "1 tsk vaniljpulver",
-          "100g pistagenötter",
-          "160g vetemjöl",
-          "140g vitchoklad"
+          "100g rumsvarmt smör",
+          "160g socker",
+          "2st ägg",
+          "1msk vaniljsocker",
+          "Citronskal från en hel citron",
+          "Citronsaft från en hel citron",
+          "300g mjöl",
+          "1tsk bakpulver",
+          "1tsk bikarbonat",
+          "Florsocker för garnering"
         ]
-      },
-      {
-        "title": "Hallongel",
-        "ingredients_list": [
-          "150g fryst hallon",
-          "40g socker",
-          "1msk majsstärkelse",
-          "4msk vatten"
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
       }
     ],
     "preparation": [
       {
-        "title": "Deg",
         "description": [
-          "Blanda farinsocker, socker och smör.",
-          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
-          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
-          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
-          "Kyl degen ca 30 minuter.",
-          "Forma till bollar, ca 70g per boll.",
-          "Grädda i 170°C i 10-12 minuter.",
-          "Forma med stansad ring om önskas.",
-          "Låt svalna innan du flyttar på dem från plåten.",
-          "Dekorera med pistagekräm, hallongel, bär och nötter."
-        ]
-      },
-      {
-        "title": "Hallongel (kan ersättas med hallonsylt)",
-        "description": [
-          "Koka upp 150g hallon tills bären börjat ge saft.",
-          "Häll över kokta hallon i en skål och mal med stavmixer.",
-          "Sila bort kärnor så du endast har saft och puré kvar.",
-          "Lägg över purén till kastrullen och tillsätt 40g socker.",
-          "Låt koka i 2 minuter.",
-          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
-          "Låt koka vid omrörning tills massan tjocknat.",
-          "Kyl."
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "description": [
-          "Rosta 150g pistagenötter i 150°C.",
-          "Koka 100g socker med 25g vatten tills det karamelliseras.",
-          "Häll karamell över pistagenötter och låt svalna.",
-          "Blanda till en slät pasta i en blender eller matberedare.",
-          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+          "Vispa rumsvarmt smör med socker. Tillsätt ägg, citronskal, citronsaft och blanda.",
+          "Blanda torra ingredienser i en bunke; mjöl, vaniljsocker, bakpulver och bikarbonat. Tillsätt torra ingredienser och blanda tills smeten är slätt. Täck med plastfolie och ställ i kylskåpet i 1 timme så att smöret stelnar lite.",
+          "Ta fram deg och forma små runda bollar, rulla i florsocker innan du lägger dem på plåten. Grädda i 180°C ca 10-15 minuter. Tiden beror på storleken på dina kakor."
         ]
       }
     ],
     "preparation_time": 5,
     "cooking_time": 10,
-    "total_time": 15,
-    "servings": 2,
+    "total_time": 30,
+    "servings": "ca 20-25st kakor.",
     "difficulty": "easy",
     "date": "2024-12-03",
-    "image_path": "/img/3.png"
+    "image_path": "/img/3.png",
+    "video_path": "/videos/3.MOV"
   },
   {
     "id": 4,

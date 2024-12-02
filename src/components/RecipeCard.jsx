@@ -1,5 +1,3 @@
-import React from "react";
-
 const RecipeCard = ({
   recipe,
   image,
@@ -29,6 +27,7 @@ const RecipeCard = ({
             width: "100%",
             height: "100%",
             objectFit: "cover",
+            opacity: isAvailable ? "1" : "0.5",
           }}
         />
         {/* Цифра сверху */}
