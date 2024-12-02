@@ -74,10 +74,10 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                           onClick={() => handleStepClick(step)}
                         >
                           <span
-                            className={`inline-block w-4 h-4 rounded-full ${
+                            className={`border border-black inline-block w-4 h-4 ${
                               completedSteps.includes(step)
                                 ? "bg-green-600"
-                                : "bg-gray-300"
+                                : "bg-white"
                             }`}
                           ></span>
                           {step}
