@@ -25,20 +25,22 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
               <div className="modal-text">
                 {recipe.ingredients.map((item, i) => (
                   <p key={i}>
-                    <strong className="font-medium">
-                      Ingredients of {item.title}:{" "}
+                    <strong className="font-extrabold text-md">
+                      Ingredientser of {item.title}:{" "}
                     </strong>{" "}
-                    {/* {recipe.ingredients.join(", ")} */}
                     {item.ingredients_list.join(", ")}
                   </p>
                 ))}
                 {recipe.preparation.map((item, i) => (
                   <div key={i}>
-                    <h3 className="font-medium">Tilllagning of {item.title}</h3>
+                    <hr className="my-4" />
+                    <h3 className="font-extrabold text-xl">
+                      Tilllagning of {item.title}
+                    </h3>
                     <ol>
                       {item.description.map((step, i) => (
                         <li
-                          className="flex items-center before:content-['🍪'] before:mr-2 before:text-xl"
+                          className="ml-6 w-max list-decimal before:mr-2 before:text-xl"
                           key={i}
                         >
                           {step}
@@ -48,7 +50,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                   </div>
                 ))}
                 <p>
-                  <strong className="font-medium">Total Time:</strong>{" "}
+                  <strong className="font-extrabold">Total Time:</strong>{" "}
                   {recipe.total_time} min
                 </p>
 
@@ -66,7 +68,9 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
               </div>
             </>
           ) : (
-            <h1 className="">Det kommer på {recipe.id} december!</h1>
+            <h1 className="text-3xl text-center font-extrabold">
+              Det kommer på {recipe.id} december!
+            </h1>
             // <h1>Det kommer på {day}</h1>
           )}
         </div>
