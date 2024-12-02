@@ -1,4 +1,5 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
+import { TbChristmasTree } from "react-icons/tb";
 
 const RecipeModal = ({ recipe, onClose, currentDate }) => {
   const isAvailable = recipe.date <= currentDate;
@@ -9,6 +10,20 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
       document.body.style.overflow = "auto";
     };
   }, []);
+  // Состояние для хранения завершенных шагов
+  const [completedSteps, setCompletedSteps] = useState(() => {
+    const savedSteps = localStorage.getItem("completedSteps");
+    return savedSteps ? JSON.parse(savedSteps) : [];
+  });
+
+  const handleStepClick = (step) => {
+    const updatedSteps = completedSteps.includes(step)
+      ? completedSteps.filter((s) => s !== step) // Удаляем шаг, если он уже есть
+      : [...completedSteps, step]; // Добавляем шаг, если его нет
+
+    setCompletedSteps(updatedSteps);
+    localStorage.setItem("completedSteps", JSON.stringify(updatedSteps));
+  };
 
   const videoRef = useRef(null);
 
@@ -26,11 +41,12 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                 {recipe.ingredients.map((item, i) => (
                   <div key={i}>
                     <h1 className="font-extrabold text-md">
-                      Ingredientser {item.title}:{" "}
+                      Ingredienser {item.title}:{" "}
                     </h1>
                     <ol key={i}>
                       {item.ingredients_list.map((item, i) => (
-                        <li className="ml-6 w-max list-decimal before:mr-2 before:text-xl">
+                        <li className="flex items-center gap-1 my-2 w-max before:mr-2 before:text-xl">
+                          <TbChristmasTree />
                           {item}
                         </li>
                       ))}
@@ -41,14 +57,26 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                   <div key={i}>
                     <hr className="my-4" />
                     <h3 className="font-extrabold text-xl">
-                      Tilllagning {item.title}
+                      Tillagning {item.title}
                     </h3>
                     <ol>
                       {item.description.map((step, i) => (
                         <li
-                          className="ml-6 w-max list-decimal before:mr-2 before:text-xl"
+                          className={`w-max flex items-center gap-2 before:text-xl cursor-pointer ${
+                            completedSteps.includes(step)
+                              ? "line-through text-green-600"
+                              : "hover:text-blue-500 hover:underline"
+                          }`}
                           key={i}
+                          onClick={() => handleStepClick(step)}
                         >
+                          <span
+                            className={`inline-block w-4 h-4 rounded-full ${
+                              completedSteps.includes(step)
+                                ? "bg-green-600"
+                                : "bg-gray-300"
+                            }`}
+                          ></span>
                           {step}
                         </li>
                       ))}
