@@ -21,7 +21,7 @@ const App = () => {
   const [recipes, setRecipes] = useState([]);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [loadingText, setLoadingText] = useState("Laddar godsaker...");
+  const [loadingText, setLoadingText] = useState("Laddar godsaker");
   const [currentDate, setCurrentDate] = useState(
     new Date().toISOString().split("T")[0]
   );
@@ -62,7 +62,12 @@ const App = () => {
     <div className="app-container bg-dark_beige">
       {loading ? (
         <div className="loader">
-          <div className="loader-text">{loadingText}</div>
+          <div className="loader-text text-red-600 cream-cake ">
+            <h1>
+              {loadingText}
+              <span className="font-sans">...</span>
+            </h1>
+          </div>
           <img
             src="/img/santa_loading.png"
             alt="Santa"

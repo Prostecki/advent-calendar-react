@@ -1,21 +1,30 @@
 @font-face {
-  font-family: "CristmasFont";
-  src: url("/fonts/christmas_font.ttf") format("ttf");
-}
-body {
-  font-family: "ChristmasFont";
+  font-family: "cream_cake";
+  src: url("/fonts/cream_cake.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 .app-container {
   @apply flex flex-wrap justify-center gap-5;
+}
+
+h1 {
+  font-family: "cream_cake";
 }
 
 .loader {
   @apply relative flex justify-center items-center w-screen h-screen bg-green-900 text-white overflow-hidden;
 }
 
+.shadow-li {
+  box-shadow: 0px 2px 4px 0px #0000000a, 0px 1px 6px 0px #00000005;
+}
+.modal-bg {
+  background-color: rgb(248, 245, 245);
+}
+
 .loader-text {
-  @apply absolute top-1/2 text-4xl font-extrabold;
-  /* animation: fadeIn 1s ease-in-out infinite; */
+  @apply absolute top-1/2 text-7xl drop-shadow-md;
 }
 .santa-image {
   position: absolute;
@@ -24,16 +33,6 @@ body {
   height: 120px;
   animation: santaMove 5s linear forwards; /* Движение Санты */
 }
-/* Анимация текста */
-/* @keyframes fadeIn {
-  0%,
-  100% {
-    opacity: 0.8;
-  }
-  50% {
-    opacity: 1;
-  }
-} */
 
 /* Анимация движения Санты */
 @keyframes santaMove {
@@ -44,9 +43,6 @@ body {
     left: 110%; /* Уходит за правую границу */
   }
 }
-/* .loader {
-  @apply absolute flex justify-center w-screen items-center h-screen text-lg md:text-xl text-gray-800 bg-slate-500 animate-[FadeIn];
-} */
 
 .recipe-list {
   @apply grid grid-cols-1 gap-4 p-4 sm:grid-cols-3 md:grid-cols-5;
@@ -56,49 +52,12 @@ body {
   @apply w-[200px] h-[200px];
 }
 
-/* .card-inner {
-  @apply w-full relative inset-0 h-full;
-} */
-
-/* .recipe-card {
-  @apply relative w-52 h-52 bg-white rounded-lg shadow-md transition-transform duration-300 ease-in-out cursor-pointer;
-} */
-
-/* .recipe-name {
-  @apply text-[4rem] font-bold mt-2;
-} */
-
-/* .recipe-card.disabled {
-  @apply opacity-50 cursor-not-allowed;
-} */
-
-/* .locked-message {
-  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-70 text-white p-2 rounded;
-} */
-
-/* .recipe-image {
-  @apply w-[140px] rounded-lg;
-} */
-
-/* .recipe-image {
-  @apply w-full h-full object-cover rounded-lg;
-} */
-
 .modal-backdrop {
   @apply fixed top-0 left-0 w-full h-full bg-black bg-opacity-60 flex justify-center items-center z-50;
 }
 
-/* test */
-
-/* .modal-content {
-  @apply bg-white p-4 rounded-lg w-11/12 max-w-md max-h-4/5 overflow-y-auto;
-} */
 .close-button {
   @apply absolute top-2 right-2 bg-transparent border-none text-lg cursor-pointer;
-}
-
-.modal-title {
-  @apply text-lg font-bold mb-4;
 }
 
 .video-container {
@@ -126,7 +85,7 @@ body {
 }
 
 .modal-content {
-  @apply relative max-w-lg p-4 sm:p-6 bg-white rounded-lg shadow-lg max-h-[90vh] sm:h-auto overflow-y-auto mx-2 sm:mx-4 sm:max-w-xs lg:min-w-[50%];
+  @apply relative max-w-lg p-4 sm:p-6 rounded-lg shadow-lg max-h-[90vh] sm:h-auto overflow-y-auto mx-2 sm:mx-4 sm:max-w-xs lg:min-w-[50%];
 }
 
 .close-button {
@@ -134,7 +93,7 @@ body {
 }
 
 .modal-title {
-  @apply mb-4 text-xl sm:text-2xl font-semibold text-center text-gray-800;
+  @apply mb-4 text-center text-gray-800 sm:text-4xl;
 }
 
 .modal-text {
@@ -166,16 +125,12 @@ body {
 }
 
 .recipe-name {
-  @apply text-[4.5rem] font-bold mt-2 absolute z-10 drop-shadow-xl; /* Убедитесь, что цифра на переднем плане */
+  @apply text-[4.5rem] mt-2 absolute z-10 drop-shadow-xl; /* Убедитесь, что цифра на переднем плане */
 }
 
 .recipe-image {
   @apply w-full h-full object-cover transition-opacity duration-1000 ease-in-out; /* Изображение с начальной непрозрачностью 0 */
 }
-
-/* .recipe-card:hover .recipe-image {
-  @apply opacity-100; /* При наведении прозрачность становится 100%
-} */
 
 .locked-message {
   @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-70 text-white p-2 rounded;
