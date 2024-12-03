@@ -73,8 +73,8 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                           key={i}
                           className="w-[100%] flex items-center gap-1 my-2 before:mr-2 before:text-xl"
                         >
-                          <TbChristmasTree className="w-[25px] h-[25px]" />
-                          {item}
+                          {/* <TbChristmasTree className="w-[25px] h-[25px]" /> */}
+                          🎄 {item}
                         </li>
                       ))}
                     </ol>

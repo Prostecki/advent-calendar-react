@@ -57,7 +57,7 @@ const App = () => {
       clearInterval(textInterval);
       setLoading(false);
       fetchRecipes();
-    }, 5000);
+    }, 6000);
 
     return () => {
       clearInterval(textInterval);
