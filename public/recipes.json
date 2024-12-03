@@ -76,7 +76,7 @@
     "servings": "ca 15 kakor",
     "difficulty": "medium",
     "date": "2024-12-01",
-    "image_path": "/img/1.png",
+    "image_path": "/img/23.png",
     "video_path": "/videos/1.MOV",
     "red_day": "rgb(160, 0, 0)",
     "preview_pic": "/img/preview_1.png"
@@ -587,7 +587,7 @@
     "servings": 2,
     "difficulty": "medium",
     "date": "2024-12-08",
-    "image_path": "/img/8.png",
+    "image_path": "/img/gold_8.png",
     "red_day": "rgb(160, 0, 0)"
   },
   {
@@ -1148,7 +1148,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-15",
-    "image_path": "/img/15.png",
+    "image_path": "/img/gold_15.png",
     "red_day": "rgb(160, 0, 0)"
   },
   {
@@ -1629,7 +1629,7 @@
     "servings": 2,
     "difficulty": "medium",
     "date": "2024-12-21",
-    "image_path": "/img/21.png"
+    "image_path": "/img/25.png"
   },
   {
     "id": 22,
@@ -1709,7 +1709,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-22",
-    "image_path": "/img/22.png",
+    "image_path": "/img/gold_22.png",
     "red_day": "rgb(160, 0, 0)"
   },
   {
@@ -1790,7 +1790,7 @@
     "servings": 2,
     "difficulty": "easy",
     "date": "2024-12-23",
-    "image_path": "/img/23.png"
+    "image_path": "/img/1.png"
   },
   {
     "id": 24,
@@ -1950,7 +1950,7 @@
     "servings": 8,
     "difficulty": "easy",
     "date": "2024-12-25",
-    "image_path": "/img/25.png",
+    "image_path": "/img/gold_25.png",
     "border": "white",
     "red_day": "rgb(160, 0, 0)"
   }
