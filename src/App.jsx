@@ -21,6 +21,7 @@ const App = () => {
   const [recipes, setRecipes] = useState([]);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [loadingText, setLoadingText] = useState("Loading...");
   const [currentDate, setCurrentDate] = useState(
     new Date().toISOString().split("T")[0]
   );
@@ -39,13 +40,28 @@ const App = () => {
       } catch (error) {
         console.error("Error fetching recipes:", error);
       }
-
-      setTimeout(() => {
-        setLoading(false);
-      }, 1000);
     };
 
-    fetchRecipes();
+    const texts = [
+      "Förbereder kort...",
+      "Förbereder lite godsaker...",
+      "Klart!",
+    ];
+    let textIndex = 0;
+    const textInterval = setInterval(() => {
+      textIndex = (textIndex + 1) % texts.length;
+      setLoadingText(texts[textIndex]);
+    }, 1500);
+
+    setTimeout(() => {
+      clearInterval(textInterval);
+      setLoading(false);
+      fetchRecipes();
+    }, 5000);
+
+    return () => {
+      clearInterval(textInterval);
+    };
   }, []);
 
   const isDateAvailable = (recipeDate) => {
@@ -57,16 +73,23 @@ const App = () => {
     return recipeDate <= currentDate;
   };
 
-  const handleCardClick = (isAvailable) => {
-    if (!isAvailable) {
-      alert("This recipe is not available yet. Please check back later!");
-    }
-  };
+  // const handleCardClick = (isAvailable) => {
+  //   if (!isAvailable) {
+  //     alert("This recipe is not available yet. Please check back later!");
+  //   }
+  // };
 
   return (
     <div className="app-container bg-dark_beige">
       {loading ? (
-        <div className="loader">Loading...</div>
+        <div className="loader">
+          <div className="loader-text">{loadingText}</div>
+          <img
+            src="/img/santa_loading.png"
+            alt="Santa"
+            className="santa-image"
+          />
+        </div>
       ) : (
         <div className="recipe-list">
           {recipes.map((recipe, index) => (

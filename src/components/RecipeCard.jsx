@@ -30,7 +30,6 @@ const RecipeCard = ({
             opacity: isAvailable ? "1" : "0.5",
           }}
         />
-        {/* Цифра сверху */}
         <div
           style={{
             position: "absolute",
@@ -42,7 +41,6 @@ const RecipeCard = ({
         >
           <h3 className="recipe-name">{recipe.id}</h3>
         </div>
-        {/* {!isAvailable && <div className="locked-message">Soon...</div>} */}
       </div>
     </div>
   );

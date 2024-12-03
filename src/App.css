@@ -10,8 +10,43 @@ body {
 }
 
 .loader {
-  @apply flex justify-center items-center h-screen text-lg md:text-xl text-gray-800 animate-[FadeIn];
+  @apply relative flex justify-center items-center w-screen h-screen bg-green-900 text-white overflow-hidden;
 }
+
+.loader-text {
+  @apply absolute top-1/2 text-xl font-bold;
+  /* animation: fadeIn 1s ease-in-out infinite; */
+}
+.santa-image {
+  position: absolute;
+  bottom: 20%; /* Расположить чуть выше нижнего края */
+  left: -30%; /* Начальная позиция слева за экраном */
+  height: 120px;
+  animation: santaMove 5s linear forwards; /* Движение Санты */
+}
+/* Анимация текста */
+/* @keyframes fadeIn {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+} */
+
+/* Анимация движения Санты */
+@keyframes santaMove {
+  from {
+    left: -30%;
+  }
+  to {
+    left: 110%; /* Уходит за правую границу */
+  }
+}
+/* .loader {
+  @apply absolute flex justify-center w-screen items-center h-screen text-lg md:text-xl text-gray-800 bg-slate-500 animate-[FadeIn];
+} */
 
 .recipe-list {
   @apply grid grid-cols-1 gap-4 p-4 sm:grid-cols-3 md:grid-cols-5;
