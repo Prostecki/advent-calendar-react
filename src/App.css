@@ -24,7 +24,7 @@ h1 {
 }
 
 .loader-text {
-  @apply absolute top-1/2 text-7xl drop-shadow-md;
+  @apply absolute text-7xl drop-shadow-md top-[20rem];
 }
 .santa-image {
   position: absolute;
@@ -61,7 +61,7 @@ h1 {
 }
 
 .video-container {
-  @apply mt-4 text-center;
+  @apply mt-4 text-center w-full;
 }
 
 .play-button,
@@ -109,7 +109,7 @@ h1 {
 }
 
 .set-show-preview {
-  @apply w-full sm:max-w-[20rem] sm:h-[350px] rounded-lg shadow-md;
+  @apply w-full sm:max-w-[30rem] rounded-lg shadow-md;
 }
 
 /* Обновленные стили */
@@ -125,7 +125,7 @@ h1 {
 }
 
 .recipe-name {
-  @apply text-[4.5rem] mt-2 absolute z-10 drop-shadow-xl; /* Убедитесь, что цифра на переднем плане */
+  @apply text-[4.5rem] font-extrabold mt-2 absolute z-10 drop-shadow-2xl; /* Убедитесь, что цифра на переднем плане */
 }
 
 .recipe-image {
