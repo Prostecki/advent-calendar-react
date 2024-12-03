@@ -46,7 +46,7 @@ const App = () => {
       setLoadingText();
       setLoading(false);
       fetchRecipes();
-    }, 5000);
+    }, 1500);
   }, []);
 
   const isDateAvailable = (recipeDate) => {
@@ -68,11 +68,11 @@ const App = () => {
               <span className="font-sans">...</span>
             </h1>
           </div>
-          <img
+          {/* <img
             src="/img/santa_loading.png"
             alt="Santa"
             className="santa-image"
-          />
+          /> */}
         </div>
       ) : (
         <div className="recipe-list">

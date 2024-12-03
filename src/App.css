@@ -44,6 +44,23 @@ h1 {
   }
 }
 
+/* Добавляем класс анимации */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Применяем анимацию */
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
 .recipe-list {
   @apply grid grid-cols-1 gap-4 p-4 sm:grid-cols-3 md:grid-cols-5;
 }
