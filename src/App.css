@@ -53,6 +53,8 @@ body {
   @apply fixed top-0 left-0 w-full h-full bg-black bg-opacity-60 flex justify-center items-center z-50;
 }
 
+/* test */
+
 /* .modal-content {
   @apply bg-white p-4 rounded-lg w-11/12 max-w-md max-h-4/5 overflow-y-auto;
 } */
@@ -110,6 +112,10 @@ body {
 
 .video {
   @apply w-full sm:max-w-md h-[200px] sm:h-[350px] rounded-lg shadow-md;
+}
+
+.set-show-preview {
+  @apply w-full sm:max-w-[20rem] sm:h-[350px] rounded-lg shadow-md;
 }
 
 /* Обновленные стили */

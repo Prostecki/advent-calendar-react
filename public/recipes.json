@@ -78,7 +78,8 @@
     "date": "2024-12-01",
     "image_path": "/img/1.png",
     "video_path": "/videos/1.MOV",
-    "red_day": "rgb(160, 0, 0)"
+    "red_day": "rgb(160, 0, 0)",
+    "preview_pic": "/img/preview_1.png"
   },
   {
     "id": 2,
@@ -147,7 +148,8 @@
     "difficulty": "medium",
     "date": "2024-12-02",
     "image_path": "/img/2.png",
-    "video_path": "/videos/2.MOV"
+    "video_path": "/videos/2.MOV",
+    "preview_pic": "/img/preview_2.png"
   },
   {
     "id": 3,
@@ -184,7 +186,8 @@
     "difficulty": "easy",
     "date": "2024-12-03",
     "image_path": "/img/3.png",
-    "video_path": "/videos/3.MOV"
+    "video_path": "/videos/3.MOV",
+    "preview_pic": "/img/preview_3.png"
   },
   {
     "id": 4,

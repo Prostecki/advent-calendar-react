@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from "react";
 import { TbChristmasTree } from "react-icons/tb";
+import VideoComponent from "./VideoComponent";
 
 const RecipeModal = ({ recipe, onClose, currentDate }) => {
   const isAvailable = recipe.date <= currentDate;
@@ -10,11 +11,18 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
       document.body.style.overflow = "auto";
     };
   }, []);
+
   // Состояние для хранения завершенных шагов
   const [completedSteps, setCompletedSteps] = useState(() => {
     const savedSteps = localStorage.getItem("completedSteps");
     return savedSteps ? JSON.parse(savedSteps) : [];
   });
+
+  const [showPreview, setShowPreview] = useState(false);
+
+  const handleShowPreview = () => {
+    setShowPreview(true);
+  };
 
   const handleStepClick = (step) => {
     const updatedSteps = completedSteps.includes(step)
@@ -37,6 +45,22 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                 ✖️
               </button>
               <h2 className="modal-title">{recipe.name}</h2>
+              <div
+                className="flex flex-col items-center cursor-pointer my-5"
+                onClick={handleShowPreview}
+              >
+                {showPreview ? (
+                  <VideoComponent
+                    videoPath={recipe.video_path}
+                    videoRef={videoRef}
+                  />
+                ) : (
+                  <img
+                    src={recipe.preview_pic}
+                    className="set-show-preview"
+                  ></img>
+                )}
+              </div>
               <div className="modal-text">
                 {recipe.ingredients.map((item, i) => (
                   <div key={i}>
@@ -94,18 +118,6 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                   <strong className="font-extrabold">Portioner:</strong>{" "}
                   {recipe.servings}
                 </p>
-
-                <div className="video-container">
-                  <video
-                    ref={videoRef}
-                    className="video"
-                    controls
-                    controlsList="nodownload"
-                    onContextMenu={(e) => e.preventDefault()}
-                    src={recipe.video_path}
-                    type="video/mov"
-                  />
-                </div>
               </div>
             </>
           ) : (
