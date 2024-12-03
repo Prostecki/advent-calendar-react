@@ -58,11 +58,12 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                   <div className="set-show-preview relative">
                     <img
                       src={recipe.preview_pic}
+                      alt="Preview"
                       className="set-show-preview"
-                    ></img>
+                    />
                     <img
                       src="/img/play.png"
-                      className="absolute top-[10rem] left-[7.5rem] w-[6rem] animate-bounce"
+                      className="absolute inset-0 m-auto w-[6rem] animate-bounce"
                       alt="play"
                     />
                   </div>
