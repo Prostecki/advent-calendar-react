@@ -63,7 +63,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                     />
                     <img
                       src="/img/play.png"
-                      className="absolute inset-0 m-auto w-[6rem] animate-bounce"
+                      className="absolute inset-0 m-auto w-[3rem] animate-bounce"
                       alt="play"
                     />
                   </div>
