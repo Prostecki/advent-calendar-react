@@ -73,12 +73,6 @@ const App = () => {
     return recipeDate <= currentDate;
   };
 
-  // const handleCardClick = (isAvailable) => {
-  //   if (!isAvailable) {
-  //     alert("This recipe is not available yet. Please check back later!");
-  //   }
-  // };
-
   return (
     <div className="app-container bg-dark_beige">
       {loading ? (

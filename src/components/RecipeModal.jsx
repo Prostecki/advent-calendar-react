@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from "react";
-import { TbChristmasTree } from "react-icons/tb";
+
 import VideoComponent from "./VideoComponent";
 
 const RecipeModal = ({ recipe, onClose, currentDate }) => {
@@ -55,10 +55,17 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                     videoRef={videoRef}
                   />
                 ) : (
-                  <img
-                    src={recipe.preview_pic}
-                    className="set-show-preview"
-                  ></img>
+                  <div className="set-show-preview relative">
+                    <img
+                      src={recipe.preview_pic}
+                      className="set-show-preview"
+                    ></img>
+                    <img
+                      src="/img/play.png"
+                      className="absolute top-[10rem] left-[7.5rem] w-[6rem] animate-bounce"
+                      alt="play"
+                    />
+                  </div>
                 )}
               </div>
               <div className="modal-text">

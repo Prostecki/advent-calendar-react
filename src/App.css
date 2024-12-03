@@ -14,7 +14,7 @@ body {
 }
 
 .loader-text {
-  @apply absolute top-1/2 text-xl font-bold;
+  @apply absolute top-1/2 text-4xl font-extrabold;
   /* animation: fadeIn 1s ease-in-out infinite; */
 }
 .santa-image {
