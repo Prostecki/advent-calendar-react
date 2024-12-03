@@ -21,7 +21,7 @@ const App = () => {
   const [recipes, setRecipes] = useState([]);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [loadingText, setLoadingText] = useState("Loading...");
+  const [loadingText, setLoadingText] = useState("Laddar godsaker...");
   const [currentDate, setCurrentDate] = useState(
     new Date().toISOString().split("T")[0]
   );
@@ -42,26 +42,11 @@ const App = () => {
       }
     };
 
-    const texts = [
-      "Förbereder kort...",
-      "Förbereder lite godsaker...",
-      "Klart!",
-    ];
-    let textIndex = 0;
-    const textInterval = setInterval(() => {
-      textIndex = (textIndex + 1) % texts.length;
-      setLoadingText(texts[textIndex]);
-    }, 1500);
-
     setTimeout(() => {
-      clearInterval(textInterval);
+      setLoadingText();
       setLoading(false);
       fetchRecipes();
-    }, 6000);
-
-    return () => {
-      clearInterval(textInterval);
-    };
+    }, 5000);
   }, []);
 
   const isDateAvailable = (recipeDate) => {

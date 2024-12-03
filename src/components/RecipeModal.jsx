@@ -72,7 +72,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
               <div className="modal-text">
                 {recipe.ingredients.map((item, i) => (
                   <div key={i}>
-                    <h1 className="font-extrabold text-md">
+                    <h1 className="font-extrabold text-md my-2">
                       Ingredienser {item.title || ""}:{" "}
                     </h1>
                     <ol key={i}>
@@ -81,7 +81,6 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                           key={i}
                           className="w-[100%] flex items-center gap-1 my-2 before:mr-2 before:text-xl"
                         >
-                          {/* <TbChristmasTree className="w-[25px] h-[25px]" /> */}
                           🎄 {item}
                         </li>
                       ))}
@@ -91,14 +90,14 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                 {recipe.preparation.map((item, i) => (
                   <div key={i}>
                     <hr className="my-4" />
-                    <h3 className="font-extrabold text-xl">
+                    <h3 className="font-extrabold text-xl my-2">
                       Tillagning {item.title}
                     </h3>
                     <ol className="max-w-full break-words">
                       {item.description.map((step, i) => (
                         <li
                           key={i}
-                          className={`w-[90%] flex items-center gap-2 cursor-pointer break-words ${
+                          className={`w-[90%] flex items-start gap-2 cursor-pointer break-words ${
                             completedSteps.includes(step)
                               ? "line-through text-green-600"
                               : "hover:text-blue-500"
@@ -118,14 +117,18 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                     </ol>
                   </div>
                 ))}
-                <p>
-                  <strong className="font-extrabold">Total tid:</strong>{" "}
+                <div className="flex items-center gap-1">
+                  <img src="/img/clock.png" alt="tiden" className="w-6" />
                   {recipe.total_time} min
-                </p>
-                <p>
-                  <strong className="font-extrabold">Portioner:</strong>{" "}
+                </div>
+                <div className="flex items-center gap-1">
+                  <img
+                    src="/img/cutlery.png"
+                    alt="tillagninstid"
+                    className="w-6"
+                  />
                   {recipe.servings}
-                </p>
+                </div>
               </div>
             </>
           ) : (
