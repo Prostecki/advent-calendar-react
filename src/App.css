@@ -13,7 +13,7 @@ h1 {
 }
 
 .loader {
-  @apply relative flex justify-center items-center w-screen h-screen bg-green-900 text-white overflow-hidden;
+  @apply relative flex justify-center items-center w-screen h-screen bg-red-500 text-white overflow-hidden;
 }
 
 .shadow-li {
@@ -24,7 +24,7 @@ h1 {
 }
 
 .loader-text {
-  @apply absolute text-7xl drop-shadow-md top-[20rem];
+  @apply absolute text-6xl text-white drop-shadow-xl top-[20rem];
 }
 .santa-image {
   position: absolute;
@@ -125,7 +125,7 @@ h1 {
 }
 
 .recipe-name {
-  @apply text-[4.5rem] font-extrabold mt-2 absolute z-10 drop-shadow-2xl; /* Убедитесь, что цифра на переднем плане */
+  @apply text-[3.8rem] font-extrabold mt-2 absolute z-10 drop-shadow-2xl; /* Убедитесь, что цифра на переднем плане */
 }
 
 .recipe-image {

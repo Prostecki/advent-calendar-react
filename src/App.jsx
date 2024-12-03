@@ -62,7 +62,7 @@ const App = () => {
     <div className="app-container bg-dark_beige">
       {loading ? (
         <div className="loader">
-          <div className="loader-text text-red-600 cream-cake ">
+          <div className="loader-text text-red-600 cream-cake">
             <h1>
               {loadingText}
               <span className="font-sans">...</span>
