@@ -47,7 +47,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
               <button className="close-button" onClick={onClose}>
                 ✖️
               </button>
-              <h1 className="modal-title sm:text-4xl text-5xl">
+              <h1 className="modal-title sm:text-4xl text-browny text-5xl">
                 {recipe.name}
               </h1>
               <div
@@ -114,20 +114,18 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                       {item.description.map((step, i) => (
                         <li
                           key={i}
-                          className={`w-[90%] flex items-baseline gap-2 cursor-pointer bg-white shadow-li rounded-lg px-3 py-2 my-3 break-words ${
+                          className={`w-[90%] flex items-start gap-2 cursor-pointer bg-white shadow-li rounded-lg px-3 py-3 my-3 break-words ${
                             completedSteps.includes(step)
-                              ? "line-through text-green-600"
-                              : "hover:text-blue-500"
+                              ? "text-stone-400"
+                              : ""
                           }`}
                           onClick={() => handleStepClick(step)}
                         >
-                          <span
-                            className={`border border-black inline-block flex-shrink-0 w-3 h-3 rounded ${
-                              completedSteps.includes(step)
-                                ? "bg-green-600"
-                                : "bg-white"
-                            }`}
-                          ></span>
+                          <span className="relative w-5 h-5 mt-1 flex items-center justify-center border-2 border-gray-600 rounded shrink-0">
+                            {completedSteps.includes(step) && (
+                              <span className="absolute top-[1.5px] w-[6px] h-[12px] border-r-2 border-b-2 border-green-600 transform rotate-45"></span>
+                            )}
+                          </span>
                           {step}
                         </li>
                       ))}

@@ -10,6 +10,9 @@ export default {
         beige: "rgb(236, 217, 195)",
         dark_beige: "rgb(216, 189, 159)",
       },
+      colors: {
+        browny: "rgb(85, 62, 52)",
+      },
     },
   },
   plugins: [],
