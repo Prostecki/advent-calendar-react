@@ -32,6 +32,17 @@ const App = () => {
   const isDateCheckEnabled = true;
 
   useEffect(() => {
+    const preloadImages = () => {
+      recipes.forEach((recipe) => {
+        const img = new Image();
+        img.src = recipe.image_path;
+      });
+    };
+
+    preloadImages();
+  }, [recipes]);
+
+  useEffect(() => {
     const fetchRecipes = async () => {
       try {
         const response = await fetch("/recipes.json");
@@ -39,14 +50,24 @@ const App = () => {
         setRecipes(data);
       } catch (error) {
         console.error("Error fetching recipes:", error);
+      } finally {
+        setLoading(false);
       }
     };
 
-    setTimeout(() => {
+    // setTimeout(() => {
+    //   setLoadingText();
+    //   setLoading(false);
+    fetchRecipes();
+    // }, 1500);
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
       setLoadingText();
-      setLoading(false);
-      fetchRecipes();
-    }, 1500);
+    }, 2000);
+
+    return () => clearInterval(interval); // Очистка интервала
   }, []);
 
   const isDateAvailable = (recipeDate) => {
@@ -68,11 +89,6 @@ const App = () => {
               <span className="font-sans">...</span>
             </h1>
           </div>
-          {/* <img
-            src="/img/santa_loading.png"
-            alt="Santa"
-            className="santa-image"
-          /> */}
         </div>
       ) : (
         <div className="recipe-list">

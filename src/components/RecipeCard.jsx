@@ -17,6 +17,7 @@ const RecipeCard = ({
     >
       <div className="card-inner rounded-lg bg-beige relative overflow-hidden">
         <img
+          loading="lazy"
           src={image}
           alt={recipe.name}
           className="recipe-image"
