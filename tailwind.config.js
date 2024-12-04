@@ -9,6 +9,7 @@ export default {
       backgroundColor: {
         beige: "rgb(236, 217, 195)",
         dark_beige: "rgb(216, 189, 159)",
+        light_green: "rgb(246, 250, 244)",
       },
       colors: {
         browny: "rgb(85, 62, 52)",
