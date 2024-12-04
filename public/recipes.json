@@ -74,7 +74,6 @@
     "cooking_time": 12,
     "total_time": 60,
     "servings": "ca 15 kakor",
-    "difficulty": "medium",
     "date": "2024-12-01",
     "image_path": "/img/23.png",
     "video_path": "/videos/1.MOV",
@@ -141,11 +140,9 @@
         ]
       }
     ],
-    "preparation_time": 10,
     "cooking_time": 20,
     "total_time": "ca 120",
-    "servings": "ca 40 stora bullar eller ca 60 små",
-    "difficulty": "medium",
+    "servings": "ca 40 stora bullar eller 60 små",
     "date": "2024-12-02",
     "image_path": "/img/2.png",
     "video_path": "/videos/2.MOV",
@@ -179,11 +176,9 @@
         ]
       }
     ],
-    "preparation_time": 5,
     "cooking_time": 10,
     "total_time": 30,
     "servings": "ca 20-25st kakor.",
-    "difficulty": "easy",
     "date": "2024-12-03",
     "image_path": "/img/3.png",
     "video_path": "/videos/3.MOV",
@@ -223,11 +218,9 @@
         ]
       }
     ],
-    "preparation_time": 15,
     "cooking_time": 20,
     "total_time": 30,
     "servings": "8 bitar",
-    "difficulty": "medium",
     "date": "2024-12-04",
     "image_path": "/img/4.png",
     "video_path": "/videos/4.MOV",
@@ -235,83 +228,73 @@
   },
   {
     "id": 5,
-    "name": "Pancakes",
+    "name": "Cinnamon Buns",
     "ingredients": [
+      {
+        "title": "Fyllning",
+        "ingredients_list": [
+          "100g Farinsocker",
+          "2tsk Malen kanel",
+          "Malen muskotnöt efter smak",
+          "100g Rumsvarmt smör"
+        ]
+      },
       {
         "title": "Deg",
         "ingredients_list": [
-          "70g socker",
-          "100g farinsocker",
-          "100g smör",
-          "1 ägg",
-          "0.5 tsk bakpulver",
-          "1 tsk vaniljpulver",
-          "100g pistagenötter",
-          "160g vetemjöl",
-          "140g vitchoklad"
+          "250ml Mjölk",
+          "500-600g Vetemjöl",
+          "25g Färsk jäst",
+          "100g Strösocker",
+          "100g Rumsvarmt smör",
+          "1st Ägg",
+          "1st Ägg och 3tsk Vatten (till pensling)"
         ]
       },
       {
-        "title": "Hallongel",
+        "title": "Topping",
         "ingredients_list": [
-          "150g fryst hallon",
-          "40g socker",
-          "1msk majsstärkelse",
-          "4msk vatten"
+          "150g Cream Cheese",
+          "100g Florsocker",
+          "50ml Vispgrädde 36%",
+          "1tsk Vaniljextrakt/vaniljpulver"
         ]
-      },
-      {
-        "title": "Pistagekräm",
-        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
       }
     ],
     "preparation": [
       {
+        "title": "Fyllning",
+        "description": [
+          "Blanda rumsvarma smöret ihop med farinsocker, kanel och muskotnöt."
+        ]
+      },
+      {
         "title": "Deg",
         "description": [
-          "Blanda farinsocker, socker och smör.",
-          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
-          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
-          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
-          "Kyl degen ca 30 minuter.",
-          "Forma till bollar, ca 70g per boll.",
-          "Grädda i 170°C i 10-12 minuter.",
-          "Forma med stansad ring om önskas.",
-          "Låt svalna innan du flyttar på dem från plåten.",
-          "Dekorera med pistagekräm, hallongel, bär och nötter."
+          "Impulsvärm mjölken i mikron till 37°C. Är temperaturen lägre, kan jäsningen ta längre tid. Är mjölken varmare - låt svalna, annars dödar du jästen.",
+          "Smula färsk jäst och blanda tills jästen har löst upp sig i mjölken. Tillsätt en tesked socker och ca 6 matskedar mjöl (ca 100g), blanda. Täck skålen med handduk och låt jäsa i ca 30 minuter. Fördegen ska fått bubblor och dubblats i storleken.",
+          "Häll över till en bakmaskin eller fortsätt arbeta för hand. Tillsätt resterande socker och vetemjöl, rumsvarmt smör och ägg. Knåda för hand i 5-10 minuter på en bänk tills deg slutat fastna på händerna.",
+          "Mjöla degen, lägg i en skål och täck med handduk för jäsning, den bör svälla till det dubbla. Sätt ugnen på 180°C, över- och undervärme.",
+          "Mjöla bänken och kavla ut till en rektangel. Bre ut fyllningen enda ut till kanterna. Rulla till en lång rulle och skär på tvären i 9 lika stora delar.",
+          "Smörj formen med smör, lägg bullarna i rektangulär form, täck med handduk och låt jäsa i ca 15 minuter. Vill du ha lite kladdigare bullar, häll lönnsirap med farinsocker i botten eller ersätt med karamell.",
+          "Vispa ihop ingredienserna till penslingen lite lätt och pensla, det gör att bullarna får fin färg. Grädda i 35-40 minuter."
         ]
       },
       {
-        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "title": "Topping",
         "description": [
-          "Koka upp 150g hallon tills bären börjat ge saft.",
-          "Häll över kokta hallon i en skål och mal med stavmixer.",
-          "Sila bort kärnor så du endast har saft och puré kvar.",
-          "Lägg över purén till kastrullen och tillsätt 40g socker.",
-          "Låt koka i 2 minuter.",
-          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
-          "Låt koka vid omrörning tills massan tjocknat.",
-          "Kyl."
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "description": [
-          "Rosta 150g pistagenötter i 150°C.",
-          "Koka 100g socker med 25g vatten tills det karamelliseras.",
-          "Häll karamell över pistagenötter och låt svalna.",
-          "Blanda till en slät pasta i en blender eller matberedare.",
-          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+          "Ta fram rumsvarma Cream Cheesen, blanda försiktigt med florsocker, vaniljsocker och vispgrädde.",
+          "Ta ut bullarna och låt svalna i ca 20 minuter. Toppa med krämen och 'voala'. Du har nu gjort världens godaste Cinnamon Buns!"
         ]
       }
     ],
-    "preparation_time": 5,
-    "cooking_time": 10,
-    "total_time": 15,
-    "servings": 4,
-    "difficulty": "easy",
+    "cooking_time": "ca 120",
+    "total_time": 140,
+    "servings": "Ca 9 personer",
     "date": "2024-12-05",
-    "image_path": "/img/5.png"
+    "image_path": "/img/5.png",
+    "video_path": "/videos/5.MOV",
+    "preview_pic": "/img/preview_5.png"
   },
   {
     "id": 6,

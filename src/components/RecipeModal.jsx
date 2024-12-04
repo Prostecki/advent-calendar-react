@@ -87,12 +87,18 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                 {recipe.servings}
               </div>
               <div className="modal-text">
+                <h1 className="font-thin text-[2.8rem] my-5 text-browny">
+                  Ingredienser
+                </h1>
                 {recipe.ingredients.map((item, i) => (
                   <div key={i}>
-                    <h1 className="font-thin text-4xl my-2">
-                      Ingredienser {item.title || ""}:{" "}
+                    <h1 className="font-thin text-4xl text-browny">
+                      {item.title || ""}:{" "}
                     </h1>
-                    <ol key={i}>
+                    <ol
+                      className="shadow-li bg-white rounded-lg px-3 py-2"
+                      key={i}
+                    >
                       {item.ingredients_list.map((item, i) => (
                         <li
                           key={i}
@@ -104,39 +110,43 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                     </ol>
                   </div>
                 ))}
-                {recipe.preparation.map((item, i) => (
-                  <div key={i}>
-                    <hr className="my-4" />
-                    <h1 className="font-thin text-4xl my-2">
-                      Tillagning {item.title}
-                    </h1>
-                    <ol className="max-w-full break-words">
-                      {item.description.map((step, i) => (
-                        <li
-                          key={i}
-                          className={`w-[90%] flex items-start gap-2 cursor-pointer bg-white shadow-li rounded-lg px-3 py-3 my-3 break-words ${
-                            completedSteps.includes(step)
-                              ? "text-stone-400"
-                              : ""
-                          }`}
-                          onClick={() => handleStepClick(step)}
-                        >
-                          <span className="relative w-5 h-5 mt-1 flex items-center justify-center border-2 border-gray-600 rounded shrink-0">
-                            {completedSteps.includes(step) && (
-                              <span className="absolute top-[1.5px] w-[6px] h-[12px] border-r-2 border-b-2 border-green-600 transform rotate-45"></span>
-                            )}
-                          </span>
-                          {step}
-                        </li>
-                      ))}
-                    </ol>
-                  </div>
-                ))}
+                <div>
+                  <h1 className="font-thin text-5xl my-4 text-browny">
+                    Tillagning
+                  </h1>
+                  {recipe.preparation.map((item, i) => (
+                    <div key={i}>
+                      <h1 className="font-thin text-4xl my-2 text-browny">
+                        {item.title}
+                      </h1>
+                      <ol className="max-w-full break-words">
+                        {item.description.map((step, i) => (
+                          <li
+                            key={i}
+                            className={`w-[90%] flex items-start gap-2 cursor-pointer bg-white shadow-li rounded-lg px-3 py-3 my-3 break-words ${
+                              completedSteps.includes(step)
+                                ? "text-stone-400"
+                                : ""
+                            }`}
+                            onClick={() => handleStepClick(step)}
+                          >
+                            <span className="relative w-5 h-5 mt-1 flex items-center justify-center border-2 border-gray-600 rounded shrink-0">
+                              {completedSteps.includes(step) && (
+                                <span className="absolute top-[1.5px] w-[6px] h-[12px] border-r-2 border-b-2 border-green-600 transform rotate-45"></span>
+                              )}
+                            </span>
+                            {step}
+                          </li>
+                        ))}
+                      </ol>
+                    </div>
+                  ))}
+                </div>
               </div>
             </>
           ) : (
             <h1 className="text-3xl text-center font-extrabold">
-              Kommer den {recipe.id}:e december!
+              Kommer den {recipe.id}:e december<span>!</span>
             </h1>
             // <h1>Det kommer på {day}</h1>
           )}
