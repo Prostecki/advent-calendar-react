@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import RecipeCard from "./components/RecipeCard";
 import RecipeModal from "./components/RecipeModal";
+import Footer from "./components/Footer";
 import "./App.css";
 
 const App = () => {
@@ -114,6 +115,7 @@ const App = () => {
           onClose={() => setSelectedRecipe(null)}
         />
       )}
+      <Footer />
     </div>
   );
 };
