@@ -3,7 +3,9 @@ import { useRef, useEffect, useState } from "react";
 import VideoComponent from "./VideoComponent";
 
 const RecipeModal = ({ recipe, onClose, currentDate }) => {
+  const modalContentRef = useRef(null);
   const isAvailable = recipe.date <= currentDate;
+
   useEffect(() => {
     document.body.style.overflow = "hidden";
 
@@ -12,7 +14,17 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
     };
   }, []);
 
-  // Состояние для хранения завершенных шагов
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop =
+        document.documentElement.scrollTop || document.body.scrollTop;
+      setShowScrollButton(scrollTop > 100);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const [completedSteps, setCompletedSteps] = useState(() => {
     const savedSteps = localStorage.getItem("completedSteps");
     return savedSteps ? JSON.parse(savedSteps) : [];
@@ -26,8 +38,8 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
 
   const handleStepClick = (step) => {
     const updatedSteps = completedSteps.includes(step)
-      ? completedSteps.filter((s) => s !== step) // Удаляем шаг, если он уже есть
-      : [...completedSteps, step]; // Добавляем шаг, если его нет
+      ? completedSteps.filter((s) => s !== step)
+      : [...completedSteps, step];
 
     setCompletedSteps(updatedSteps);
     localStorage.setItem("completedSteps", JSON.stringify(updatedSteps));
@@ -35,12 +47,23 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
 
   const videoRef = useRef(null);
 
+  const scrollToTop = () => {
+    console.log("funkar? ");
+    if (modalContentRef.current) {
+      modalContentRef.current.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <>
       <section className="modal-overlay" onClick={onClose}>
         <div
           className="modal-content modal-bg"
           onClick={(e) => e.stopPropagation()}
+          ref={modalContentRef}
         >
           {isAvailable ? (
             <>
@@ -152,6 +175,13 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
             </h1>
             // <h1>Det kommer på {day}</h1>
           )}
+          <button
+            onClick={scrollToTop}
+            className="shadow-li px-3 rounded-lg bg-white animate-pulse"
+          >
+            {" "}
+            ↑ Top
+          </button>
         </div>
       </section>
     </>
