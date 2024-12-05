@@ -168,6 +168,13 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                   ))}
                 </div>
               </div>
+              <button
+                onClick={scrollToTop}
+                className="shadow-li px-3 rounded-lg bg-white animate-pulse"
+              >
+                {" "}
+                ↑ Top
+              </button>
             </>
           ) : (
             <h1 className="text-3xl text-center font-extrabold">
@@ -175,13 +182,6 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
             </h1>
             // <h1>Det kommer på {day}</h1>
           )}
-          <button
-            onClick={scrollToTop}
-            className="shadow-li px-3 rounded-lg bg-white animate-pulse"
-          >
-            {" "}
-            ↑ Top
-          </button>
         </div>
       </section>
     </>
