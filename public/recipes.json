@@ -338,7 +338,8 @@
     "difficulty": "easy",
     "date": "2024-12-06",
     "image_path": "/img/6.png",
-    "video_path": "/videos/6.MOV"
+    "video_path": "/videos/6.MOV",
+    "preview_pic": "/img/preview_6.png"
   },
   {
     "id": 7,
