@@ -39,12 +39,11 @@
           "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
           "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
           "Rör ner pistagenötter, mjöl och vitchokladknappar.",
-          "Kyl degen ca 30 minuter.",
-          "Forma till bollar, ca 70g per boll.",
+          "Kyl degen ca 30 minuter. Forma till bollar, ca 70g per boll.",
           "Grädda i 170°C i 10-12 minuter.",
-          "Forma med stansad ring om önskas.",
+          "När kakorna är färdiggräddade, forma med en stansad ring för fylligare form, se videon.",
           "Låt svalna innan du flyttar på dem från plåten.",
-          "Dekorera med pistagekräm, hallongel, bär och nötter."
+          "Dekorera med pistagekräm, hallongel, bär och nötter. Se pristagekräm och hallongel recept nedan. Kan ersättas med färdiga varor från livsmedelsbutiker."
         ]
       },
       {
@@ -318,17 +317,13 @@
       {
         "title": "",
         "description": [
-          "Blanda farinsocker och socker.",
-          "Smält smör i en kastrull och tillsätt saffran till det varma smöret.",
-          "Blanda socker med saffransblandningen.",
+          "Blanda farinsocker och socker. Smält smör i en kastrull och tillsätt saffran till det varma smöret. Blanda socker med saffransblandningen.",
           "Tillsätt ägg och bakpulver, blanda.",
           "Rör ner mjöl och vitchokladknappar. Knapparna kan ersättas med hackad choklad.",
-          "Kyl degen ca 30 minuter.",
-          "Forma till 70g bollar. Önskar du mindre kakor, gör fler bollar istället - du väljer.",
+          "Kyl degen ca 30 minuter, forma till 70g bollar. Önskar du mindre kakor, gör fler bollar istället - du väljer.",
           "Grädda i 170°C i 10-12 minuter.",
           "När kakorna är färdiggräddade, forma med en stansad ring för fylligare form, se videon.",
-          "Låt svalna innan du flyttar på dem från plåten.",
-          "Njut!"
+          "Låt svalna innan du flyttar på dem från plåten. Njut!"
         ]
       }
     ],
@@ -338,7 +333,7 @@
     "difficulty": "easy",
     "date": "2024-12-06",
     "image_path": "/img/6.png",
-    "video_path": "/videos/6.MOV",
+    "video_path": "/videos/6.mp4",
     "preview_pic": "/img/preview_6.png"
   },
   {
