@@ -488,83 +488,74 @@
   },
   {
     "id": 10,
-    "name": "Grilled Cheese Sandwich",
+    "name": "Hallonbullar",
     "ingredients": [
+      {
+        "title": "Hallonfyllning",
+        "ingredients_list": [
+          "150g fryst hallon",
+          "100g socker",
+          "1msk majsstärkelse",
+          "4msk vatten",
+          "100g smör"
+        ]
+      },
       {
         "title": "Deg",
         "ingredients_list": [
-          "70g socker",
-          "100g farinsocker",
-          "100g smör",
+          "250ml mjölk",
+          "500-600g vetemjöl",
+          "25g färsk jäst",
+          "100g strösocker",
+          "100g rumsvarmt smör",
           "1 ägg",
-          "0.5 tsk bakpulver",
-          "1 tsk vaniljpulver",
-          "100g pistagenötter",
-          "160g vetemjöl",
-          "140g vitchoklad"
+          "1 ägg och 3tsk vatten till pensling"
         ]
       },
       {
-        "title": "Hallongel",
-        "ingredients_list": [
-          "150g fryst hallon",
-          "40g socker",
-          "1msk majsstärkelse",
-          "4msk vatten"
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
+        "title": "Topping",
+        "ingredients_list": ["100g strösocker", "100g vatten"]
       }
     ],
     "preparation": [
       {
-        "title": "Deg",
-        "description": [
-          "Blanda farinsocker, socker och smör.",
-          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
-          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
-          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
-          "Kyl degen ca 30 minuter.",
-          "Forma till bollar, ca 70g per boll.",
-          "Grädda i 170°C i 10-12 minuter.",
-          "Forma med stansad ring om önskas.",
-          "Låt svalna innan du flyttar på dem från plåten.",
-          "Dekorera med pistagekräm, hallongel, bär och nötter."
-        ]
-      },
-      {
-        "title": "Hallongel (kan ersättas med hallonsylt)",
+        "title": "Fyllning",
         "description": [
           "Koka upp 150g hallon tills bären börjat ge saft.",
-          "Häll över kokta hallon i en skål och mal med stavmixer.",
-          "Sila bort kärnor så du endast har saft och puré kvar.",
-          "Lägg över purén till kastrullen och tillsätt 40g socker.",
-          "Låt koka i 2 minuter.",
-          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
-          "Låt koka vid omrörning tills massan tjocknat.",
-          "Kyl."
+          "Häll över kokta hallon i en skål och mal med stavmixer. Sila bort kärnor så du endast har saft och puré kvar av bären.",
+          "Lägg över purén till kastrullen, tillsätt socker och låt koka på svag värme ca 5 minuter.",
+          "Blanda majsstärkelse med vatten i en liten skål. Tillsätt till smeten. Låt koka vid omrörning tills massan tjocknat. Kyl.",
+          "Vispa rumsvarmt smör och tillsätt hallonpuré. Blanda till jämn smet."
         ]
       },
       {
-        "title": "Pistagekräm",
+        "title": "Deg",
         "description": [
-          "Rosta 150g pistagenötter i 150°C.",
-          "Koka 100g socker med 25g vatten tills det karamelliseras.",
-          "Häll karamell över pistagenötter och låt svalna.",
-          "Blanda till en slät pasta i en blender eller matberedare.",
-          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+          "Impulsvärm mjölken i mikron till 37°C. Är temperaturen lägre, kan jäsningen ta längre tid. Är mjölken varmare - låt svalna, annars dödar du jästen.",
+          "Smula färsk jäst och blanda tills jästen har löst upp sig i mjölken. Tillsätt en tesked socker och ca 6 matskedar mjöl (ca 100g), blanda. Täck skålen med handduk och låt jäsa i ca 30 minuter. Fördegen ska fått bubblor och dubblats i storleken.",
+          "Häll över till en bakmaskin eller fortsätt arbeta för hand. Tillsätt resterande socker och vetemjöl, rumsvarmt smör och ägg. Knåda för hand i 5-10 minuter på en bänk tills deg slutat fastna på händerna.",
+          "Mjöla degen, lägg i en skål och täck med handduk för jäsning, den bör svälla till det dubbla. Sätt ugnen på 180°C, över- och undervärme.",
+          "Mjöla bänken och kavla ut till en rektangel. Bre ut fyllningen enda ut till kanterna. Vik deg på mitten och kavla ut. Skär remsor och vid till knut eller fläta (se video).",
+          "Lägg bullarna i pappersformar, täck med handduk och låt jäsa i ca 15 minuter till.",
+          "Vispa ihop ingredienserna till penslingen lite lätt och pensla, det gör att bullarna får fin färg. Grädda i 35-40 minuter."
+        ]
+      },
+      {
+        "title": "Topping",
+        "description": [
+          "Koka vatten och socker tills sockret har lösts upp. Pensla bullarna med lagen så fort de kommit ut ur ugnen. Låt svalna."
         ]
       }
     ],
     "preparation_time": 5,
-    "cooking_time": 5,
+    "cooking_time": "ca 120 minuter",
     "total_time": 10,
-    "servings": 1,
+    "servings": "ca 12 personer",
     "difficulty": "easy",
     "date": "2024-12-10",
-    "image_path": "/img/10.png"
+    "image_path": "/img/10.png",
+    "video_path": "/videos/10.MOV",
+    "preview_pic": "/img/preview_10.png"
   },
   {
     "id": 11,
