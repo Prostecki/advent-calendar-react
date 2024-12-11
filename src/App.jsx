@@ -29,7 +29,7 @@ const App = () => {
   const today = new Date();
   const day = String(today.getDate()).padStart(2, "0");
 
-  // Эта переменная управляет проверкой даты
+  // Check date
   const isDateCheckEnabled = true;
 
   useEffect(() => {
@@ -55,12 +55,7 @@ const App = () => {
         setLoading(false);
       }
     };
-
-    // setTimeout(() => {
-    //   setLoadingText();
-    //   setLoading(false);
     fetchRecipes();
-    // }, 1500);
   }, []);
 
   useEffect(() => {
@@ -68,15 +63,11 @@ const App = () => {
       setLoadingText();
     }, 2000);
 
-    return () => clearInterval(interval); // Очистка интервала
+    return () => clearInterval(interval);
   }, []);
 
   const isDateAvailable = (recipeDate) => {
-    // Если проверка даты отключена, все рецепты доступны
-    // Закомментируйте следующую строку для временного отключения проверки
     if (!isDateCheckEnabled) return true;
-
-    // Основная логика проверки
     return recipeDate <= currentDate;
   };
 
