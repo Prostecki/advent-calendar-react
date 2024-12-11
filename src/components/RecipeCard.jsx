@@ -19,7 +19,7 @@ const RecipeCard = ({
         <img
           loading="lazy"
           src={image}
-          alt={recipe.name}
+          alt={recipe.id}
           className="recipe-image"
           style={{
             position: "absolute",
