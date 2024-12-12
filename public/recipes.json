@@ -623,83 +623,42 @@
   },
   {
     "id": 12,
-    "name": "Apple Pie",
+    "name": "Saffransbollar",
     "ingredients": [
       {
-        "title": "Deg",
+        "title": "",
         "ingredients_list": [
-          "70g socker",
-          "100g farinsocker",
-          "100g smör",
-          "1 ägg",
-          "0.5 tsk bakpulver",
-          "1 tsk vaniljpulver",
-          "100g pistagenötter",
-          "160g vetemjöl",
-          "140g vitchoklad"
+          "2 dl kokosflingor",
+          "2 pkt saffran (à 0,5 g/pkt)",
+          "1 msk vatten",
+          "4 dl havregryn",
+          "200 g rumsvarmt smör",
+          "2 dl florsocker",
+          "1 msk vaniljsocker",
+          "100 g smält vit choklad"
         ]
-      },
-      {
-        "title": "Hallongel",
-        "ingredients_list": [
-          "150g fryst hallon",
-          "40g socker",
-          "1msk majsstärkelse",
-          "4msk vatten"
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
       }
     ],
     "preparation": [
       {
-        "title": "Deg",
+        "title": "",
         "description": [
-          "Blanda farinsocker, socker och smör.",
-          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
-          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
-          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
-          "Kyl degen ca 30 minuter.",
-          "Forma till bollar, ca 70g per boll.",
-          "Grädda i 170°C i 10-12 minuter.",
-          "Forma med stansad ring om önskas.",
-          "Låt svalna innan du flyttar på dem från plåten.",
-          "Dekorera med pistagekräm, hallongel, bär och nötter."
-        ]
-      },
-      {
-        "title": "Hallongel (kan ersättas med hallonsylt)",
-        "description": [
-          "Koka upp 150g hallon tills bären börjat ge saft.",
-          "Häll över kokta hallon i en skål och mal med stavmixer.",
-          "Sila bort kärnor så du endast har saft och puré kvar.",
-          "Lägg över purén till kastrullen och tillsätt 40g socker.",
-          "Låt koka i 2 minuter.",
-          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
-          "Låt koka vid omrörning tills massan tjocknat.",
-          "Kyl."
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "description": [
-          "Rosta 150g pistagenötter i 150°C.",
-          "Koka 100g socker med 25g vatten tills det karamelliseras.",
-          "Häll karamell över pistagenötter och låt svalna.",
-          "Blanda till en slät pasta i en blender eller matberedare.",
-          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+          "Värm ugnen till 175°C. Sprid ut kokosen i en ugnsform och rosta ca 5 minuter. Låt svalna.",
+          "Blanda saffran med vatten. Blanda havregryn, rumsvarmt smör, florsocker, vaniljsocker och saffranslagen. Forma till 20 stycken stora bollar eller 35st små.",
+          "Låt stelna i kylen i ca 30 minuter. Rulla bollarna först i ett tunt lager smält vit choklad och sedan i rostad kokos.",
+          "Kyl ytterligare innan servering."
         ]
       }
     ],
     "preparation_time": 15,
     "cooking_time": 45,
-    "total_time": 60,
-    "servings": 8,
+    "total_time": "60min",
+    "servings": "20st",
     "difficulty": "medium",
     "date": "2024-12-12",
-    "image_path": "/img/12.png"
+    "image_path": "/img/12.png",
+    "video_path": "/videos/12.MOV",
+    "preview_pic": "/img/preview_12.png"
   },
   {
     "id": 13,
