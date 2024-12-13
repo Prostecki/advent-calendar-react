@@ -662,83 +662,43 @@
   },
   {
     "id": 13,
-    "name": "Fried Rice",
+    "name": "Chokladfudge",
     "ingredients": [
       {
-        "title": "Deg",
+        "title": "",
         "ingredients_list": [
-          "70g socker",
-          "100g farinsocker",
-          "100g smör",
-          "1 ägg",
-          "0.5 tsk bakpulver",
-          "1 tsk vaniljpulver",
-          "100g pistagenötter",
-          "160g vetemjöl",
-          "140g vitchoklad"
+          "1.5dl mjölk",
+          "4dl strösocker",
+          "1dl farinsocker",
+          "150g smör",
+          "100g mörk choklad",
+          "1/2dl honung",
+          "100g marshmallows",
+          "100g valnötter",
+          "100g torkade tranbär"
         ]
-      },
-      {
-        "title": "Hallongel",
-        "ingredients_list": [
-          "150g fryst hallon",
-          "40g socker",
-          "1msk majsstärkelse",
-          "4msk vatten"
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
       }
     ],
     "preparation": [
       {
-        "title": "Deg",
+        "title": "",
         "description": [
-          "Blanda farinsocker, socker och smör.",
-          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
-          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
-          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
-          "Kyl degen ca 30 minuter.",
-          "Forma till bollar, ca 70g per boll.",
-          "Grädda i 170°C i 10-12 minuter.",
-          "Forma med stansad ring om önskas.",
-          "Låt svalna innan du flyttar på dem från plåten.",
-          "Dekorera med pistagekräm, hallongel, bär och nötter."
-        ]
-      },
-      {
-        "title": "Hallongel (kan ersättas med hallonsylt)",
-        "description": [
-          "Koka upp 150g hallon tills bären börjat ge saft.",
-          "Häll över kokta hallon i en skål och mal med stavmixer.",
-          "Sila bort kärnor så du endast har saft och puré kvar.",
-          "Lägg över purén till kastrullen och tillsätt 40g socker.",
-          "Låt koka i 2 minuter.",
-          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
-          "Låt koka vid omrörning tills massan tjocknat.",
-          "Kyl."
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "description": [
-          "Rosta 150g pistagenötter i 150°C.",
-          "Koka 100g socker med 25g vatten tills det karamelliseras.",
-          "Häll karamell över pistagenötter och låt svalna.",
-          "Blanda till en slät pasta i en blender eller matberedare.",
-          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+          "Koka upp mjölk, farinsocker och socker i en kastrull under omrörning och låt koka på låg värme under lock i ca 5 minuter.",
+          "Tillsätt smör, mörk choklad, honung och låt koka vidare utan lock i 12-15 minuter. Du vet att smeten är klar om du testar att droppa några droppar av smeten i ett glas med kallt vatten - det bildas små kulor.",
+          "Låt smeten svalna, rör i marshmallows, valnötter och tranbär. Du kan välja andra smaksättningar om du så önskar.",
+          "Ta en form ca 20x20cm och täck med bakplåtspapper. Häll smeten i formen och jämna till ytan. Låt fudgen stelna i kylskåp i minst 4 timmar."
         ]
       }
     ],
     "preparation_time": 5,
     "cooking_time": 10,
-    "total_time": 15,
-    "servings": 2,
+    "total_time": "30min samt nedkylning",
+    "servings": "30-40st godisar",
     "difficulty": "easy",
     "date": "2024-12-13",
-    "image_path": "/img/13.png"
+    "image_path": "/img/13.png",
+    "video_path": "/videos/13.MOV",
+    "preview_pic": "/img/preview_13.png"
   },
   {
     "id": 14,

@@ -100,7 +100,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
               <div className="flex gap-4 px-2 max-w-[25rem] m-auto border shadow-li justify-center bg-white rounded-lg">
                 <div className="flex items-center gap-1 my-3 text-browny">
                   <img src="/img/clock.png" alt="tiden" className="w-6" />
-                  {recipe.total_time} min
+                  <p className="text-center">{recipe.total_time} min</p>
                 </div>
                 <div className="flex items-center gap-1 my-3 text-browny">
                   <img
@@ -108,7 +108,7 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
                     alt="tillagninstid"
                     className="w-6"
                   />
-                  {recipe.servings}
+                  <p className="text-center">{recipe.servings}</p>
                 </div>
               </div>
               <div className="modal-text">
