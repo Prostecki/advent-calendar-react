@@ -746,84 +746,38 @@
   },
   {
     "id": 15,
-    "name": "Tacos",
+    "name": "Wienernougat",
     "ingredients": [
       {
-        "title": "Deg",
+        "title": "",
         "ingredients_list": [
-          "70g socker",
-          "100g farinsocker",
-          "100g smör",
-          "1 ägg",
-          "0.5 tsk bakpulver",
-          "1 tsk vaniljpulver",
-          "100g pistagenötter",
-          "160g vetemjöl",
-          "140g vitchoklad"
+          "100g mandelspån",
+          "200g nougat",
+          "120g mörk choklad"
         ]
-      },
-      {
-        "title": "Hallongel",
-        "ingredients_list": [
-          "150g fryst hallon",
-          "40g socker",
-          "1msk majsstärkelse",
-          "4msk vatten"
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
       }
     ],
     "preparation": [
       {
-        "title": "Deg",
+        "title": "",
         "description": [
-          "Blanda farinsocker, socker och smör.",
-          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
-          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
-          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
-          "Kyl degen ca 30 minuter.",
-          "Forma till bollar, ca 70g per boll.",
-          "Grädda i 170°C i 10-12 minuter.",
-          "Forma med stansad ring om önskas.",
-          "Låt svalna innan du flyttar på dem från plåten.",
-          "Dekorera med pistagekräm, hallongel, bär och nötter."
-        ]
-      },
-      {
-        "title": "Hallongel (kan ersättas med hallonsylt)",
-        "description": [
-          "Koka upp 150g hallon tills bären börjat ge saft.",
-          "Häll över kokta hallon i en skål och mal med stavmixer.",
-          "Sila bort kärnor så du endast har saft och puré kvar.",
-          "Lägg över purén till kastrullen och tillsätt 40g socker.",
-          "Låt koka i 2 minuter.",
-          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
-          "Låt koka vid omrörning tills massan tjocknat.",
-          "Kyl."
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "description": [
-          "Rosta 150g pistagenötter i 150°C.",
-          "Koka 100g socker med 25g vatten tills det karamelliseras.",
-          "Häll karamell över pistagenötter och låt svalna.",
-          "Blanda till en slät pasta i en blender eller matberedare.",
-          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+          "Smält nougat och choklad över vattenbad. Rör tills smeten är jämn.",
+          "Rosta sedan mandelspån i en torr stekpanna.",
+          "Klä en rektangulär form med bakplåtspapper. Häll smeten i formen och låt stelna i kylskåpet.",
+          "Skär i bitar. Förvara i en försluten burk eller slå in i smörpapper, i kylskåpet."
         ]
       }
     ],
     "preparation_time": 5,
     "cooking_time": 10,
-    "total_time": 15,
-    "servings": 2,
+    "total_time": "30",
+    "servings": "40 bitar",
     "difficulty": "easy",
     "date": "2024-12-15",
     "image_path": "/img/gold_15.png",
-    "red_day": "rgb(160, 0, 0)"
+    "red_day": "rgb(160, 0, 0)",
+    "video_path": "/videos/15.MOV",
+    "preview_pic": "/img/preview_15.png"
   },
   {
     "id": 16,
