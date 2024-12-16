@@ -415,7 +415,7 @@
     ],
     "preparation_time": 5,
     "cooking_time": 10,
-    "total_time": "ca 30 minuter",
+    "total_time": "ca 30",
     "servings": "ca 15 kakor",
     "difficulty": "medium",
     "date": "2024-12-08",
@@ -613,7 +613,7 @@
     ],
     "preparation_time": 20,
     "cooking_time": 40,
-    "total_time": "60 minuter",
+    "total_time": "60",
     "servings": "ca 8bitar",
     "difficulty": "medium",
     "date": "2024-12-11",
@@ -652,7 +652,7 @@
     ],
     "preparation_time": 15,
     "cooking_time": 45,
-    "total_time": "60min",
+    "total_time": "60",
     "servings": "20st",
     "difficulty": "medium",
     "date": "2024-12-12",
@@ -692,7 +692,7 @@
     ],
     "preparation_time": 5,
     "cooking_time": 10,
-    "total_time": "30min samt nedkylning",
+    "total_time": "30",
     "servings": "30-40st godisar",
     "difficulty": "easy",
     "date": "2024-12-13",
@@ -781,83 +781,39 @@
   },
   {
     "id": 16,
-    "name": "Vegetarian Chili",
+    "name": "Karamellflingor i choklad",
     "ingredients": [
       {
-        "title": "Deg",
+        "title": "",
         "ingredients_list": [
-          "70g socker",
-          "100g farinsocker",
-          "100g smör",
-          "1 ägg",
-          "0.5 tsk bakpulver",
-          "1 tsk vaniljpulver",
-          "100g pistagenötter",
-          "160g vetemjöl",
-          "140g vitchoklad"
+          "6dl flingor",
+          "120g saltad smör",
+          "1,5dl farinsocker",
+          "500g mjölkchoklad (topping)",
+          "Flingsalt (valfritt)"
         ]
-      },
-      {
-        "title": "Hallongel",
-        "ingredients_list": [
-          "150g fryst hallon",
-          "40g socker",
-          "1msk majsstärkelse",
-          "4msk vatten"
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
       }
     ],
     "preparation": [
       {
-        "title": "Deg",
+        "title": "",
         "description": [
-          "Blanda farinsocker, socker och smör.",
-          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
-          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
-          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
-          "Kyl degen ca 30 minuter.",
-          "Forma till bollar, ca 70g per boll.",
-          "Grädda i 170°C i 10-12 minuter.",
-          "Forma med stansad ring om önskas.",
-          "Låt svalna innan du flyttar på dem från plåten.",
-          "Dekorera med pistagekräm, hallongel, bär och nötter."
-        ]
-      },
-      {
-        "title": "Hallongel (kan ersättas med hallonsylt)",
-        "description": [
-          "Koka upp 150g hallon tills bären börjat ge saft.",
-          "Häll över kokta hallon i en skål och mal med stavmixer.",
-          "Sila bort kärnor så du endast har saft och puré kvar.",
-          "Lägg över purén till kastrullen och tillsätt 40g socker.",
-          "Låt koka i 2 minuter.",
-          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
-          "Låt koka vid omrörning tills massan tjocknat.",
-          "Kyl."
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "description": [
-          "Rosta 150g pistagenötter i 150°C.",
-          "Koka 100g socker med 25g vatten tills det karamelliseras.",
-          "Häll karamell över pistagenötter och låt svalna.",
-          "Blanda till en slät pasta i en blender eller matberedare.",
-          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+          "Värm ugnen till 180°C. Smörj och klä en liten bakplåt med bakplåtspapper.",
+          "Tillsätt smör och socker i en kastrull, låt koka i ca 4-5 minuter under omrörning tills blandningen är glansig och sockret har lösts upp. Ta bort från värmen och häll genast över cornflakes. Rör ihop tills flingorna är väl täckta. Häll ut blandningen på den förberedda bakplåten och bred ut i ett jämnt lager (ca 1,5 cm tjockt).",
+          "Grädda i 10-15 minuter, tills flingorna är gyllenbruna och karamelliserade. Ta ut ur ugnen och ställ åt sidan. Flingorna ska svalna helt innan du börjar dela dem i bitar.",
+          "Doppa de spröda bitarna i lite smält mjölkchoklad. Lägg över på bakplåtspapper, strö över lite flingsalt och ställ åt sidan i kylen för att dem ska stelna. Du behöver ca 500g choklad för att täcka den mängden."
         ]
       }
     ],
     "preparation_time": 10,
     "cooking_time": 20,
-    "total_time": 30,
-    "servings": 2,
+    "total_time": "60",
+    "servings": "ca 20-30 godisar",
     "difficulty": "easy",
     "date": "2024-12-16",
-    "image_path": "/img/16.png"
+    "image_path": "/img/16.png",
+    "video_path": "/videos/16.MOV",
+    "preview_pic": "/img/preview_16.png"
   },
   {
     "id": 17,
