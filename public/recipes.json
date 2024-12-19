@@ -926,6 +926,14 @@
     ],
     "preparation": [
       {
+        "title": "Fyllning",
+        "description": [
+          "Hacka nötterna och stek tills gyllenbruna.",
+          "Tvätta vallmofrön, sila av och lägg dem i en kastrull.",
+          "Tillsätt kondenserad mjölk, kanel och smör. Låt koka i 10-15 minuter. Ställ åt sidan och låt svalna."
+        ]
+      },
+      {
         "title": "Deg",
         "description": [
           "Impulsvärm mjölken i mikron till 37°C. Är temperaturen lägre, kan jäsningen ta längre tid. Är mjölken varmare - låt svalna, annars dödar du jästen.",
@@ -934,14 +942,6 @@
           "Mjöla bänken och kavla ut till en rektangel. Bre ut fyllningen enda ut till kanterna, strö över nötter. Rulla till en lång rulle och skär på längden. Forma en fläta.",
           "Lägg längderna på plåten, täck med handduk och låt jäsa i ca 15 minuter.",
           "Vispa ihop ingredienserna till penslingen lite lätt och pensla, det gör att bullarna får fin färg. Grädda i 35-40 minuter."
-        ]
-      },
-      {
-        "title": "Fyllning",
-        "description": [
-          "Hacka nötterna och stek tills gyllenbruna.",
-          "Tvätta vallmofrön, sila av och lägg dem i en kastrull.",
-          "Tillsätt kondenserad mjölk, kanel och smör. Låt koka i 10-15 minuter. Ställ åt sidan och låt svalna."
         ]
       },
       {
