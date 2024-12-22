@@ -1037,84 +1037,53 @@
   },
   {
     "id": 22,
-    "name": "Beef Tacos",
+    "name": "Saffransmunkar",
     "ingredients": [
       {
         "title": "Deg",
         "ingredients_list": [
-          "70g socker",
-          "100g farinsocker",
-          "100g smör",
-          "1 ägg",
-          "0.5 tsk bakpulver",
-          "1 tsk vaniljpulver",
-          "100g pistagenötter",
-          "160g vetemjöl",
-          "140g vitchoklad"
+          "25g färsk jäst",
+          "300ml kallt vatten",
+          "150g strösocker",
+          "2pkt saffran (à 0,5g)",
+          "670g vetemjöl",
+          "2 ägg",
+          "1krm salt",
+          "150g rumsvarmt smör",
+          "500ml olja till fritering"
         ]
       },
       {
-        "title": "Hallongel",
+        "title": "Topping",
         "ingredients_list": [
-          "150g fryst hallon",
-          "40g socker",
-          "1msk majsstärkelse",
-          "4msk vatten"
+          "200g socker",
+          "1tsk vaniljsocker",
+          "1tsk kardemumma"
         ]
-      },
-      {
-        "title": "Pistagekräm",
-        "ingredients_list": ["150g pistagenötter", "100g socker", "25g vatten"]
       }
     ],
     "preparation": [
       {
-        "title": "Deg",
+        "title": "",
         "description": [
-          "Blanda farinsocker, socker och smör.",
-          "Hacka pistagenötter i en matberedare eller för hand med en kniv.",
-          "Tillsätt ägg, vanilj- och bakpulver och blanda ihop.",
-          "Rör ner pistagenötter, mjöl och vitchokladknappar.",
-          "Kyl degen ca 30 minuter.",
-          "Forma till bollar, ca 70g per boll.",
-          "Grädda i 170°C i 10-12 minuter.",
-          "Forma med stansad ring om önskas.",
-          "Låt svalna innan du flyttar på dem från plåten.",
-          "Dekorera med pistagekräm, hallongel, bär och nötter."
-        ]
-      },
-      {
-        "title": "Hallongel (kan ersättas med hallonsylt)",
-        "description": [
-          "Koka upp 150g hallon tills bären börjat ge saft.",
-          "Häll över kokta hallon i en skål och mal med stavmixer.",
-          "Sila bort kärnor så du endast har saft och puré kvar.",
-          "Lägg över purén till kastrullen och tillsätt 40g socker.",
-          "Låt koka i 2 minuter.",
-          "Blanda 1msk majsstärkelse med 4tsk vatten och tillsätt till smeten.",
-          "Låt koka vid omrörning tills massan tjocknat.",
-          "Kyl."
-        ]
-      },
-      {
-        "title": "Pistagekräm",
-        "description": [
-          "Rosta 150g pistagenötter i 150°C.",
-          "Koka 100g socker med 25g vatten tills det karamelliseras.",
-          "Häll karamell över pistagenötter och låt svalna.",
-          "Blanda till en slät pasta i en blender eller matberedare.",
-          "OBS: Se instruktionen för din blender och se om den kan mala nötter."
+          "Smula jästen i en bunke. Tillsätt ljummet vatten ca 37°C, socker och saffran, rör ihop. Är vattentemperaturen lägre, kan jäsningen ta längre tid. Är vattnet varmare - låt svalna, annars dödar du jästen.",
+          "Tillsätt mjöl, ägg, salt och smör och knåda i ca 10 minuter. Låt deg jäsa ca 1 timme.",
+          "Ta ut degen på ett mjölat bord, kavla ut och skär ut med formar du gillar. Vill du att det går fortare kan du endast rulla deg till små bollar. Jag får ut ca 30-40 munkar. Låt jäsa till nästan dubbel storlek i ca 30 minuter.",
+          "Blanda alla ingredienser till kardemummasocker. Värm oljan i en kastrull till 170–180°C.",
+          "Fritera munkarna ca 1 ½ minut på varje sida, ta upp med en hålslev och rulla direkt i sockret. Servera ljumna."
         ]
       }
     ],
     "preparation_time": 5,
     "cooking_time": 10,
-    "total_time": 15,
-    "servings": 2,
+    "total_time": 120,
+    "servings": "30-40st munkar",
     "difficulty": "easy",
     "date": "2024-12-22",
     "image_path": "/img/gold_22.png",
-    "red_day": "rgb(160, 0, 0)"
+    "red_day": "rgb(160, 0, 0)",
+    "preview_pic": "/img/preview_22.png",
+    "video_path": "/videos/22.MOV"
   },
   {
     "id": 23,
