@@ -1125,26 +1125,42 @@
   },
   {
     "id": 24,
-    "name": "Soon!",
+    "name": "Scones",
     "ingredients": [
       {
         "title": "",
-        "ingredients_list": []
+        "ingredients_list": [
+          "300g gräddfil",
+          "420g vetemjöl",
+          "3tsk bakpulver",
+          "1krm salt",
+          "2msk strösocker",
+          "125g smör",
+          "1 ägg och 3tsk vatten till pensling",
+          "(1pkt saffran à 0,5g - valfritt)"
+        ]
       }
     ],
     "preparation": [
       {
         "title": "",
-        "description": []
+        "description": [
+          "Sätt ugnen på 250°C över- och undervärme.",
+          "Blanda mjöl, bakpulver, salt och socker i en bunke. Blanda torra ingredienser med gräddfil. Tillsätt smör och arbeta ihop till en deg. Önskar du juligaste smak, förvärm gräddfil med saffran i en kastrull innan du blandar ihop med andra ingredienser.",
+          "Lägg degen på mjölad bänk och dela i 15-20 degbollar. Lägg dem på en plåt med bakplåtspapper. Blanda alla ingredienser till penslingen och pensla över bollarna. Grädda i mitten av ugnen 8–10 min.",
+          "Servera med cream cheese och sylt."
+        ]
       }
     ],
     "preparation_time": 5,
     "cooking_time": 20,
-    "total_time": "—",
-    "servings": "—",
+    "total_time": 30,
+    "servings": "15-20st scones",
     "difficulty": "easy",
     "date": "2024-12-24",
-    "image_path": "/img/24.png"
+    "image_path": "/img/24.png",
+    "video_path": "/videos/24.MOV",
+    "preview_pic": "/img/preview_24.png"
   },
   {
     "id": 25,
@@ -1153,25 +1169,9 @@
       {
         "title": "",
         "ingredients_list": []
-      },
-      {
-        "title": "",
-        "ingredients_list": []
-      },
-      {
-        "title": "",
-        "ingredients_list": []
       }
     ],
     "preparation": [
-      {
-        "title": "",
-        "description": []
-      },
-      {
-        "title": "",
-        "description": []
-      },
       {
         "title": "",
         "description": []
