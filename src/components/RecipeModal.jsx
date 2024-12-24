@@ -48,7 +48,6 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
   const videoRef = useRef(null);
 
   const scrollToTop = () => {
-    console.log("funkar? ");
     if (modalContentRef.current) {
       modalContentRef.current.scrollTo({
         top: 0,
@@ -73,30 +72,32 @@ const RecipeModal = ({ recipe, onClose, currentDate }) => {
               <h1 className="modal-title sm:text-4xl text-browny text-5xl">
                 {recipe.name}
               </h1>
-              <div
-                className="flex flex-col items-center cursor-pointer my-5"
-                onClick={handleShowPreview}
-              >
-                {showPreview ? (
-                  <VideoComponent
-                    videoPath={recipe.video_path}
-                    videoRef={videoRef}
-                  />
-                ) : (
-                  <div className="set-show-preview relative">
-                    <img
-                      src={recipe.preview_pic}
-                      alt="Preview"
-                      className="set-show-preview"
+              {recipe.video_path && (
+                <div
+                  className="flex flex-col items-center cursor-pointer my-5"
+                  onClick={handleShowPreview}
+                >
+                  {showPreview ? (
+                    <VideoComponent
+                      videoPath={recipe.video_path}
+                      videoRef={videoRef}
                     />
-                    <img
-                      src="/img/play.png"
-                      className="absolute inset-0 m-auto w-[3rem] "
-                      alt="play"
-                    />
-                  </div>
-                )}
-              </div>
+                  ) : (
+                    <div className="set-show-preview relative">
+                      <img
+                        src={recipe.preview_pic}
+                        alt="Preview"
+                        className="set-show-preview"
+                      />
+                      <img
+                        src="/img/play.png"
+                        className="absolute inset-0 m-auto w-[3rem] "
+                        alt="play"
+                      />
+                    </div>
+                  )}
+                </div>
+              )}
               <div className="flex gap-4 px-2 max-w-[25rem] m-auto border shadow-li justify-center bg-white rounded-lg">
                 <div className="flex items-center gap-1 my-3 text-browny">
                   <img src="/img/clock.png" alt="tiden" className="w-6" />
