@@ -762,7 +762,7 @@
         "title": "",
         "description": [
           "Smält nougat och choklad över vattenbad. Rör tills smeten är jämn.",
-          "Rosta sedan mandelspån i en torr stekpanna.",
+          "Rosta sedan mandelspån i en torr stekpanna. Addera mandelspån till smeten, blanda.",
           "Klä en rektangulär form med bakplåtspapper. Häll smeten i formen och låt stelna i kylskåpet.",
           "Skär i bitar. Förvara i en försluten burk eller slå in i smörpapper, i kylskåpet."
         ]
@@ -1164,27 +1164,56 @@
   },
   {
     "id": 25,
-    "name": "Soon!",
+    "name": "Trästock",
     "ingredients": [
       {
-        "title": "",
-        "ingredients_list": []
+        "title": "Mördeg",
+        "ingredients_list": [
+          "280g rumsvarmt smör",
+          "30g florsocker",
+          "2-3 ägg (ca 130g)",
+          "500g mjöl",
+          "7g bakpulver"
+        ]
+      },
+      {
+        "title": "Kräm",
+        "ingredients_list": [
+          "150g rumsvarmt smör",
+          "1 burk dulce de leche (à 380 g)"
+        ]
+      },
+      {
+        "title": "Topping",
+        "ingredients_list": ["200g mjölkchoklad", "200g färskost"]
       }
     ],
     "preparation": [
       {
         "title": "",
-        "description": []
+        "description": [
+          "Vispa smör fluffigt i ca 5 minuter. Tillsätt florsocker och vispa till jämn smet.",
+          "Blanda vetemjöl och bakpulver. Addera en tredjedel av mjölet till smörsmeten. Tillsätt ett ägg i taget och blanda ytterligare hälften av mjölet.",
+          "Strö över resterande mjöl på en köksbänk, ta ut degen på det mjölade bordet och knåda tills all vetemjöl är adderad till degen. Du ska inte överarbeta för att smöret i degen inte ska börja smälta av värmen från dina händer, du ska endast få ihop alla ingredienser.",
+          "Forma deg till 3-4st degrullar och förslut med plastfolie. Lägg in i frysen i ca 30-40 minuter.",
+          "Sätt ugnen på över- och undervärme, 180°C. Ta fram frysta degbitar och hyvla på en plåt täckt med bakplåtspapper. Fördela hyvlad deg på plåten och grädda mitt i ugnen i ca 20-25 minuter.",
+          "Ta ut genomgräddade degen och låt svalna. Dela för hand i mindre bitar. Förbered kräm genom att vispa smör ihop med dulche de leche.",
+          "Blanda krämen med kaksmulor till en jämn smet. Forma små bollar eller gör trästock som jag, se videon. Låt din figur/bollar frysa i ca 15-20 minuter.",
+          "Förbered topping genom att smälta mjölkchoklad över ett vattenbad. Låt svalna och vispa fluffigt med färskost.",
+          "Dekorera, toppa med bär och florsocker. Njut!"
+        ]
       }
     ],
-    "preparation_time": 10,
+    "preparation_time": "",
     "cooking_time": 60,
-    "total_time": "",
-    "servings": "",
+    "total_time": 120,
+    "servings": "10-12 bitar",
     "difficulty": "easy",
     "date": "2024-12-25",
     "image_path": "/img/gold_25.png",
     "border": "white",
-    "red_day": "rgb(160, 0, 0)"
+    "red_day": "rgb(160, 0, 0)",
+    "video_path": "/videos/25.MOV",
+    "preview_pic": "/img/preview_25.jpg"
   }
 ]
